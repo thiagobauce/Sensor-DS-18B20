@@ -1,0 +1,2606 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_OSEG                          
+C:   00000003  l_BSEG_BYTES                    
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_HOME                          
+C:   00000006  s_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   00000009  s_GSINIT1                       
+C:   00000009  s_GSINIT2                       
+C:   0000000A  l_GSINIT2                       
+C:   0000000F  l_GSINIT                        
+C:   0000000F  s_OSEG                          
+C:   00000010  s_REG_BANK_2                    
+C:   00000011  l_BSEG                          
+C:   00000013  s_GSINIT3                       
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000035  s_GSINIT4                       
+C:   0000003F  s_SSEG                          
+C:   0000005F  s_GSINIT                        
+C:   0000005F  s_GSINIT5                       
+C:   0000006E  s_GSFINAL                       
+C:   00000071  l_DSEG                          
+C:   00000071  s_CSEG                          
+C:   000000C1  l_SSEG                          
+C:   00000100  l_IRAM                          
+C:   000003F1  l_CONST                         
+C:   00000CF6  l_CSEG                          
+C:   00000D67  s_CONST                         
+C:   00001158  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           Trabalho
+     00000080  G$P0_0$0$0                         Trabalho
+     00000080  _P0                                Trabalho
+     00000080  _P0_0                              Trabalho
+     00000081  G$P0_1$0$0                         Trabalho
+     00000081  G$SP$0$0                           Trabalho
+     00000081  _P0_1                              Trabalho
+     00000081  _SP                                Trabalho
+     00000082  G$DPL$0$0                          Trabalho
+     00000082  G$P0_2$0$0                         Trabalho
+     00000082  _DPL                               Trabalho
+     00000082  _P0_2                              Trabalho
+     00000083  G$DPH$0$0                          Trabalho
+     00000083  G$P0_3$0$0                         Trabalho
+     00000083  _DPH                               Trabalho
+     00000083  _P0_3                              Trabalho
+     00000084  G$P0_4$0$0                         Trabalho
+     00000084  G$SFRPAGE$0$0                      Trabalho
+     00000084  _P0_4                              Trabalho
+     00000084  _SFRPAGE                           Trabalho
+     00000085  G$P0_5$0$0                         Trabalho
+     00000085  G$SFRNEXT$0$0                      Trabalho
+     00000085  _P0_5                              Trabalho
+     00000085  _SFRNEXT                           Trabalho
+     00000086  G$P0_6$0$0                         Trabalho
+     00000086  G$SFRLAST$0$0                      Trabalho
+     00000086  _P0_6                              Trabalho
+     00000086  _SFRLAST                           Trabalho
+     00000087  G$P0_7$0$0                         Trabalho
+     00000087  G$PCON$0$0                         Trabalho
+     00000087  _P0_7                              Trabalho
+     00000087  _PCON                              Trabalho
+     00000088  G$CP0HYN0$0$0                      Trabalho
+     00000088  G$CP1HYN0$0$0                      Trabalho
+     00000088  G$CP2HYN0$0$0                      Trabalho
+     00000088  G$CPT0CN$0$0                       Trabalho
+     00000088  G$CPT1CN$0$0                       Trabalho
+     00000088  G$CPT2CN$0$0                       Trabalho
+     00000088  G$IT0$0$0                          Trabalho
+     00000088  G$TCON$0$0                         Trabalho
+     00000088  _CP0HYN0                           Trabalho
+     00000088  _CP1HYN0                           Trabalho
+     00000088  _CP2HYN0                           Trabalho
+     00000088  _CPT0CN                            Trabalho
+     00000088  _CPT1CN                            Trabalho
+     00000088  _CPT2CN                            Trabalho
+     00000088  _IT0                               Trabalho
+     00000088  _TCON                              Trabalho
+     00000089  G$CP0HYN1$0$0                      Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000089  G$CP1HYN1$0$0                      Trabalho
+     00000089  G$CP2HYN1$0$0                      Trabalho
+     00000089  G$CPT0MD$0$0                       Trabalho
+     00000089  G$CPT1MD$0$0                       Trabalho
+     00000089  G$CPT2MD$0$0                       Trabalho
+     00000089  G$IE0$0$0                          Trabalho
+     00000089  G$TMOD$0$0                         Trabalho
+     00000089  _CP0HYN1                           Trabalho
+     00000089  _CP1HYN1                           Trabalho
+     00000089  _CP2HYN1                           Trabalho
+     00000089  _CPT0MD                            Trabalho
+     00000089  _CPT1MD                            Trabalho
+     00000089  _CPT2MD                            Trabalho
+     00000089  _IE0                               Trabalho
+     00000089  _TMOD                              Trabalho
+     0000008A  G$CP0HYP0$0$0                      Trabalho
+     0000008A  G$CP1HYP0$0$0                      Trabalho
+     0000008A  G$CP2HYP0$0$0                      Trabalho
+     0000008A  G$IT1$0$0                          Trabalho
+     0000008A  G$OSCICN$0$0                       Trabalho
+     0000008A  G$TL0$0$0                          Trabalho
+     0000008A  _CP0HYP0                           Trabalho
+     0000008A  _CP1HYP0                           Trabalho
+     0000008A  _CP2HYP0                           Trabalho
+     0000008A  _IT1                               Trabalho
+     0000008A  _OSCICN                            Trabalho
+     0000008A  _TL0                               Trabalho
+     0000008B  G$CP0HYP1$0$0                      Trabalho
+     0000008B  G$CP1HYP1$0$0                      Trabalho
+     0000008B  G$CP2HYP1$0$0                      Trabalho
+     0000008B  G$IE1$0$0                          Trabalho
+     0000008B  G$OSCICL$0$0                       Trabalho
+     0000008B  G$TL1$0$0                          Trabalho
+     0000008B  _CP0HYP1                           Trabalho
+     0000008B  _CP1HYP1                           Trabalho
+     0000008B  _CP2HYP1                           Trabalho
+     0000008B  _IE1                               Trabalho
+     0000008B  _OSCICL                            Trabalho
+     0000008B  _TL1                               Trabalho
+     0000008C  G$CP0FIF$0$0                       Trabalho
+     0000008C  G$CP1FIF$0$0                       Trabalho
+     0000008C  G$CP2FIF$0$0                       Trabalho
+     0000008C  G$OSCXCN$0$0                       Trabalho
+     0000008C  G$TH0$0$0                          Trabalho
+     0000008C  G$TR0$0$0                          Trabalho
+     0000008C  _CP0FIF                            Trabalho
+     0000008C  _CP1FIF                            Trabalho
+     0000008C  _CP2FIF                            Trabalho
+     0000008C  _OSCXCN                            Trabalho
+     0000008C  _TH0                               Trabalho
+     0000008C  _TR0                               Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  G$CP0RIF$0$0                       Trabalho
+     0000008D  G$CP1RIF$0$0                       Trabalho
+     0000008D  G$CP2RIF$0$0                       Trabalho
+     0000008D  G$TF0$0$0                          Trabalho
+     0000008D  G$TH1$0$0                          Trabalho
+     0000008D  _CP0RIF                            Trabalho
+     0000008D  _CP1RIF                            Trabalho
+     0000008D  _CP2RIF                            Trabalho
+     0000008D  _TF0                               Trabalho
+     0000008D  _TH1                               Trabalho
+     0000008E  G$CKCON$0$0                        Trabalho
+     0000008E  G$CP0OUT$0$0                       Trabalho
+     0000008E  G$CP1OUT$0$0                       Trabalho
+     0000008E  G$CP2OUT$0$0                       Trabalho
+     0000008E  G$TR1$0$0                          Trabalho
+     0000008E  _CKCON                             Trabalho
+     0000008E  _CP0OUT                            Trabalho
+     0000008E  _CP1OUT                            Trabalho
+     0000008E  _CP2OUT                            Trabalho
+     0000008E  _TR1                               Trabalho
+     0000008F  G$CP0EN$0$0                        Trabalho
+     0000008F  G$CP1EN$0$0                        Trabalho
+     0000008F  G$CP2EN$0$0                        Trabalho
+     0000008F  G$PSCTL$0$0                        Trabalho
+     0000008F  G$TF1$0$0                          Trabalho
+     0000008F  _CP0EN                             Trabalho
+     0000008F  _CP1EN                             Trabalho
+     0000008F  _CP2EN                             Trabalho
+     0000008F  _PSCTL                             Trabalho
+     0000008F  _TF1                               Trabalho
+     00000090  G$P1$0$0                           Trabalho
+     00000090  G$P1_0$0$0                         Trabalho
+     00000090  _P1                                Trabalho
+     00000090  _P1_0                              Trabalho
+     00000091  G$P1_1$0$0                         Trabalho
+     00000091  G$SSTA0$0$0                        Trabalho
+     00000091  _P1_1                              Trabalho
+     00000091  _SSTA0                             Trabalho
+     00000092  G$P1_2$0$0                         Trabalho
+     00000092  _P1_2                              Trabalho
+     00000093  G$P1_3$0$0                         Trabalho
+     00000093  _P1_3                              Trabalho
+     00000094  G$P1_4$0$0                         Trabalho
+     00000094  _P1_4                              Trabalho
+     00000095  G$P1_5$0$0                         Trabalho
+     00000095  _P1_5                              Trabalho
+     00000096  G$P1_6$0$0                         Trabalho
+     00000096  G$SFRPGCN$0$0                      Trabalho
+     00000096  _P1_6                              Trabalho
+     00000096  _SFRPGCN                           Trabalho
+     00000097  G$CLKSEL$0$0                       Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000097  G$P1_7$0$0                         Trabalho
+     00000097  _CLKSEL                            Trabalho
+     00000097  _P1_7                              Trabalho
+     00000098  G$RI0$0$0                          Trabalho
+     00000098  G$RI1$0$0                          Trabalho
+     00000098  G$SCON0$0$0                        Trabalho
+     00000098  G$SCON1$0$0                        Trabalho
+     00000098  _RI0                               Trabalho
+     00000098  _RI1                               Trabalho
+     00000098  _SCON0                             Trabalho
+     00000098  _SCON1                             Trabalho
+     00000099  G$SBUF0$0$0                        Trabalho
+     00000099  G$SBUF1$0$0                        Trabalho
+     00000099  G$TI0$0$0                          Trabalho
+     00000099  G$TI1$0$0                          Trabalho
+     00000099  _SBUF0                             Trabalho
+     00000099  _SBUF1                             Trabalho
+     00000099  _TI0                               Trabalho
+     00000099  _TI1                               Trabalho
+     0000009A  G$RB80$0$0                         Trabalho
+     0000009A  G$RB81$0$0                         Trabalho
+     0000009A  G$SPI0CFG$0$0                      Trabalho
+     0000009A  _RB80                              Trabalho
+     0000009A  _RB81                              Trabalho
+     0000009A  _SPI0CFG                           Trabalho
+     0000009B  G$SPI0DAT$0$0                      Trabalho
+     0000009B  G$TB80$0$0                         Trabalho
+     0000009B  G$TB81$0$0                         Trabalho
+     0000009B  _SPI0DAT                           Trabalho
+     0000009B  _TB80                              Trabalho
+     0000009B  _TB81                              Trabalho
+     0000009C  G$P4MDOUT$0$0                      Trabalho
+     0000009C  G$REN0$0$0                         Trabalho
+     0000009C  G$REN1$0$0                         Trabalho
+     0000009C  _P4MDOUT                           Trabalho
+     0000009C  _REN0                              Trabalho
+     0000009C  _REN1                              Trabalho
+     0000009D  G$MCE1$0$0                         Trabalho
+     0000009D  G$P5MDOUT$0$0                      Trabalho
+     0000009D  G$SM20$0$0                         Trabalho
+     0000009D  G$SPI0CKR$0$0                      Trabalho
+     0000009D  _MCE1                              Trabalho
+     0000009D  _P5MDOUT                           Trabalho
+     0000009D  _SM20                              Trabalho
+     0000009D  _SPI0CKR                           Trabalho
+     0000009E  G$P6MDOUT$0$0                      Trabalho
+     0000009E  G$SM10$0$0                         Trabalho
+     0000009E  _P6MDOUT                           Trabalho
+     0000009E  _SM10                              Trabalho
+     0000009F  G$P7MDOUT$0$0                      Trabalho
+     0000009F  G$S1MODE$0$0                       Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009F  G$SM00$0$0                         Trabalho
+     0000009F  _P7MDOUT                           Trabalho
+     0000009F  _S1MODE                            Trabalho
+     0000009F  _SM00                              Trabalho
+     000000A0  G$P2$0$0                           Trabalho
+     000000A0  G$P2_0$0$0                         Trabalho
+     000000A0  _P2                                Trabalho
+     000000A0  _P2_0                              Trabalho
+     000000A1  G$EMI0TC$0$0                       Trabalho
+     000000A1  G$P2_1$0$0                         Trabalho
+     000000A1  _EMI0TC                            Trabalho
+     000000A1  _P2_1                              Trabalho
+     000000A2  G$EMI0CN$0$0                       Trabalho
+     000000A2  G$P2_2$0$0                         Trabalho
+     000000A2  G$_XPAGE$0$0                       Trabalho
+     000000A2  _EMI0CN                            Trabalho
+     000000A2  _P2_2                              Trabalho
+     000000A2  __XPAGE                            Trabalho
+     000000A3  G$EMI0CF$0$0                       Trabalho
+     000000A3  G$P2_3$0$0                         Trabalho
+     000000A3  _EMI0CF                            Trabalho
+     000000A3  _P2_3                              Trabalho
+     000000A4  G$P0MDOUT$0$0                      Trabalho
+     000000A4  G$P2_4$0$0                         Trabalho
+     000000A4  _P0MDOUT                           Trabalho
+     000000A4  _P2_4                              Trabalho
+     000000A5  G$P1MDOUT$0$0                      Trabalho
+     000000A5  G$P2_5$0$0                         Trabalho
+     000000A5  _P1MDOUT                           Trabalho
+     000000A5  _P2_5                              Trabalho
+     000000A6  G$P2MDOUT$0$0                      Trabalho
+     000000A6  G$P2_6$0$0                         Trabalho
+     000000A6  _P2MDOUT                           Trabalho
+     000000A6  _P2_6                              Trabalho
+     000000A7  G$P2_7$0$0                         Trabalho
+     000000A7  G$P3MDOUT$0$0                      Trabalho
+     000000A7  _P2_7                              Trabalho
+     000000A7  _P3MDOUT                           Trabalho
+     000000A8  G$EX0$0$0                          Trabalho
+     000000A8  G$IE$0$0                           Trabalho
+     000000A8  _EX0                               Trabalho
+     000000A8  _IE                                Trabalho
+     000000A9  G$ET0$0$0                          Trabalho
+     000000A9  G$SADDR0$0$0                       Trabalho
+     000000A9  G$SADDR1$0$0                       Trabalho
+     000000A9  _ET0                               Trabalho
+     000000A9  _SADDR0                            Trabalho
+     000000A9  _SADDR1                            Trabalho
+     000000AA  G$EX1$0$0                          Trabalho
+     000000AA  _EX1                               Trabalho
+     000000AB  G$ET1$0$0                          Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AB  _ET1                               Trabalho
+     000000AC  G$ES0$0$0                          Trabalho
+     000000AC  _ES0                               Trabalho
+     000000AD  G$ET2$0$0                          Trabalho
+     000000AD  G$P1MDIN$0$0                       Trabalho
+     000000AD  _ET2                               Trabalho
+     000000AD  _P1MDIN                            Trabalho
+     000000AE  G$P2MDIN$0$0                       Trabalho
+     000000AE  _P2MDIN                            Trabalho
+     000000AF  G$EA$0$0                           Trabalho
+     000000AF  G$P3MDIN$0$0                       Trabalho
+     000000AF  _EA                                Trabalho
+     000000AF  _P3MDIN                            Trabalho
+     000000B0  G$P3$0$0                           Trabalho
+     000000B0  G$P3_0$0$0                         Trabalho
+     000000B0  _P3                                Trabalho
+     000000B0  _P3_0                              Trabalho
+     000000B1  G$P3_1$0$0                         Trabalho
+     000000B1  _P3_1                              Trabalho
+     000000B2  G$P3_2$0$0                         Trabalho
+     000000B2  _P3_2                              Trabalho
+     000000B3  G$P3_3$0$0                         Trabalho
+     000000B3  _P3_3                              Trabalho
+     000000B4  G$P3_4$0$0                         Trabalho
+     000000B4  _P3_4                              Trabalho
+     000000B5  G$P3_5$0$0                         Trabalho
+     000000B5  _P3_5                              Trabalho
+     000000B6  G$P3_6$0$0                         Trabalho
+     000000B6  _P3_6                              Trabalho
+     000000B7  G$FLACL$0$0                        Trabalho
+     000000B7  G$FLSCL$0$0                        Trabalho
+     000000B7  G$P3_7$0$0                         Trabalho
+     000000B7  _FLACL                             Trabalho
+     000000B7  _FLSCL                             Trabalho
+     000000B7  _P3_7                              Trabalho
+     000000B8  G$IP$0$0                           Trabalho
+     000000B8  G$PX0$0$0                          Trabalho
+     000000B8  _IP                                Trabalho
+     000000B8  _PX0                               Trabalho
+     000000B9  G$PT0$0$0                          Trabalho
+     000000B9  G$SADEN0$0$0                       Trabalho
+     000000B9  _PT0                               Trabalho
+     000000B9  _SADEN0                            Trabalho
+     000000BA  G$AMX0CF$0$0                       Trabalho
+     000000BA  G$AMX2CF$0$0                       Trabalho
+     000000BA  G$PX1$0$0                          Trabalho
+     000000BA  _AMX0CF                            Trabalho
+     000000BA  _AMX2CF                            Trabalho
+     000000BA  _PX1                               Trabalho
+     000000BB  G$AMX0SL$0$0                       Trabalho
+     000000BB  G$AMX2SL$0$0                       Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000BB  G$PT1$0$0                          Trabalho
+     000000BB  _AMX0SL                            Trabalho
+     000000BB  _AMX2SL                            Trabalho
+     000000BB  _PT1                               Trabalho
+     000000BC  G$ADC0CF$0$0                       Trabalho
+     000000BC  G$ADC2CF$0$0                       Trabalho
+     000000BC  G$PS0$0$0                          Trabalho
+     000000BC  _ADC0CF                            Trabalho
+     000000BC  _ADC2CF                            Trabalho
+     000000BC  _PS0                               Trabalho
+     000000BD  G$AMX0PRT$0$0                      Trabalho
+     000000BD  G$PT2$0$0                          Trabalho
+     000000BD  _AMX0PRT                           Trabalho
+     000000BD  _PT2                               Trabalho
+     000000BE  G$ADC0L$0$0                        Trabalho
+     000000BE  G$ADC2$0$0                         Trabalho
+     000000BE  _ADC0L                             Trabalho
+     000000BE  _ADC2                              Trabalho
+     000000BF  G$ADC0H$0$0                        Trabalho
+     000000BF  _ADC0H                             Trabalho
+     000000C0  G$CAN0STA$0$0                      Trabalho
+     000000C0  G$LEC0$0$0                         Trabalho
+     000000C0  G$SMB0CN$0$0                       Trabalho
+     000000C0  G$SMBTOE$0$0                       Trabalho
+     000000C0  _CAN0STA                           Trabalho
+     000000C0  _LEC0                              Trabalho
+     000000C0  _SMB0CN                            Trabalho
+     000000C0  _SMBTOE                            Trabalho
+     000000C1  G$LEC1$0$0                         Trabalho
+     000000C1  G$SMB0STA$0$0                      Trabalho
+     000000C1  G$SMBFTE$0$0                       Trabalho
+     000000C1  _LEC1                              Trabalho
+     000000C1  _SMB0STA                           Trabalho
+     000000C1  _SMBFTE                            Trabalho
+     000000C2  G$AA$0$0                           Trabalho
+     000000C2  G$LEC2$0$0                         Trabalho
+     000000C2  G$SMB0DAT$0$0                      Trabalho
+     000000C2  _AA                                Trabalho
+     000000C2  _LEC2                              Trabalho
+     000000C2  _SMB0DAT                           Trabalho
+     000000C3  G$SI$0$0                           Trabalho
+     000000C3  G$SMB0ADR$0$0                      Trabalho
+     000000C3  G$TXOK$0$0                         Trabalho
+     000000C3  _SI                                Trabalho
+     000000C3  _SMB0ADR                           Trabalho
+     000000C3  _TXOK                              Trabalho
+     000000C4  G$ADC0GTL$0$0                      Trabalho
+     000000C4  G$ADC2GT$0$0                       Trabalho
+     000000C4  G$RXOK$0$0                         Trabalho
+     000000C4  G$STO$0$0                          Trabalho
+     000000C4  _ADC0GTL                           Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C4  _ADC2GT                            Trabalho
+     000000C4  _RXOK                              Trabalho
+     000000C4  _STO                               Trabalho
+     000000C5  G$ADC0GTH$0$0                      Trabalho
+     000000C5  G$EPASS$0$0                        Trabalho
+     000000C5  G$STA$0$0                          Trabalho
+     000000C5  _ADC0GTH                           Trabalho
+     000000C5  _EPASS                             Trabalho
+     000000C5  _STA                               Trabalho
+     000000C6  G$ADC0LTL$0$0                      Trabalho
+     000000C6  G$ADC2LT$0$0                       Trabalho
+     000000C6  G$ENSMB$0$0                        Trabalho
+     000000C6  G$EWARN$0$0                        Trabalho
+     000000C6  _ADC0LTL                           Trabalho
+     000000C6  _ADC2LT                            Trabalho
+     000000C6  _ENSMB                             Trabalho
+     000000C6  _EWARN                             Trabalho
+     000000C7  G$ADC0LTH$0$0                      Trabalho
+     000000C7  G$BOFF$0$0                         Trabalho
+     000000C7  G$BUSY$0$0                         Trabalho
+     000000C7  _ADC0LTH                           Trabalho
+     000000C7  _BOFF                              Trabalho
+     000000C7  _BUSY                              Trabalho
+     000000C8  G$CPRL2$0$0                        Trabalho
+     000000C8  G$CPRL3$0$0                        Trabalho
+     000000C8  G$CPRL4$0$0                        Trabalho
+     000000C8  G$P4$0$0                           Trabalho
+     000000C8  G$P4_0$0$0                         Trabalho
+     000000C8  G$TMR2CN$0$0                       Trabalho
+     000000C8  G$TMR3CN$0$0                       Trabalho
+     000000C8  G$TMR4CN$0$0                       Trabalho
+     000000C8  _CPRL2                             Trabalho
+     000000C8  _CPRL3                             Trabalho
+     000000C8  _CPRL4                             Trabalho
+     000000C8  _P4                                Trabalho
+     000000C8  _P4_0                              Trabalho
+     000000C8  _TMR2CN                            Trabalho
+     000000C8  _TMR3CN                            Trabalho
+     000000C8  _TMR4CN                            Trabalho
+     000000C9  G$CT2$0$0                          Trabalho
+     000000C9  G$CT3$0$0                          Trabalho
+     000000C9  G$CT4$0$0                          Trabalho
+     000000C9  G$P4_1$0$0                         Trabalho
+     000000C9  G$TMR2CF$0$0                       Trabalho
+     000000C9  G$TMR3CF$0$0                       Trabalho
+     000000C9  G$TMR4CF$0$0                       Trabalho
+     000000C9  _CT2                               Trabalho
+     000000C9  _CT3                               Trabalho
+     000000C9  _CT4                               Trabalho
+     000000C9  _P4_1                              Trabalho
+     000000C9  _TMR2CF                            Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C9  _TMR3CF                            Trabalho
+     000000C9  _TMR4CF                            Trabalho
+     000000CA  G$P4_2$0$0                         Trabalho
+     000000CA  G$RCAP2L$0$0                       Trabalho
+     000000CA  G$RCAP3L$0$0                       Trabalho
+     000000CA  G$RCAP4L$0$0                       Trabalho
+     000000CA  G$TR2$0$0                          Trabalho
+     000000CA  G$TR3$0$0                          Trabalho
+     000000CA  G$TR4$0$0                          Trabalho
+     000000CA  _P4_2                              Trabalho
+     000000CA  _RCAP2L                            Trabalho
+     000000CA  _RCAP3L                            Trabalho
+     000000CA  _RCAP4L                            Trabalho
+     000000CA  _TR2                               Trabalho
+     000000CA  _TR3                               Trabalho
+     000000CA  _TR4                               Trabalho
+     000000CB  G$EXEN2$0$0                        Trabalho
+     000000CB  G$EXEN3$0$0                        Trabalho
+     000000CB  G$EXEN4$0$0                        Trabalho
+     000000CB  G$P4_3$0$0                         Trabalho
+     000000CB  G$RCAP2H$0$0                       Trabalho
+     000000CB  G$RCAP3H$0$0                       Trabalho
+     000000CB  G$RCAP4H$0$0                       Trabalho
+     000000CB  _EXEN2                             Trabalho
+     000000CB  _EXEN3                             Trabalho
+     000000CB  _EXEN4                             Trabalho
+     000000CB  _P4_3                              Trabalho
+     000000CB  _RCAP2H                            Trabalho
+     000000CB  _RCAP3H                            Trabalho
+     000000CB  _RCAP4H                            Trabalho
+     000000CC  G$P4_4$0$0                         Trabalho
+     000000CC  G$TMR2L$0$0                        Trabalho
+     000000CC  G$TMR3L$0$0                        Trabalho
+     000000CC  G$TMR4L$0$0                        Trabalho
+     000000CC  _P4_4                              Trabalho
+     000000CC  _TMR2L                             Trabalho
+     000000CC  _TMR3L                             Trabalho
+     000000CC  _TMR4L                             Trabalho
+     000000CD  G$P4_5$0$0                         Trabalho
+     000000CD  G$TMR2H$0$0                        Trabalho
+     000000CD  G$TMR3H$0$0                        Trabalho
+     000000CD  G$TMR4H$0$0                        Trabalho
+     000000CD  _P4_5                              Trabalho
+     000000CD  _TMR2H                             Trabalho
+     000000CD  _TMR3H                             Trabalho
+     000000CD  _TMR4H                             Trabalho
+     000000CE  G$EXF2$0$0                         Trabalho
+     000000CE  G$EXF3$0$0                         Trabalho
+     000000CE  G$EXF4$0$0                         Trabalho
+     000000CE  G$P4_6$0$0                         Trabalho
+     000000CE  _EXF2                              Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CE  _EXF3                              Trabalho
+     000000CE  _EXF4                              Trabalho
+     000000CE  _P4_6                              Trabalho
+     000000CF  G$P4_7$0$0                         Trabalho
+     000000CF  G$SMB0CR$0$0                       Trabalho
+     000000CF  G$TF2$0$0                          Trabalho
+     000000CF  G$TF3$0$0                          Trabalho
+     000000CF  G$TF4$0$0                          Trabalho
+     000000CF  _P4_7                              Trabalho
+     000000CF  _SMB0CR                            Trabalho
+     000000CF  _TF2                               Trabalho
+     000000CF  _TF3                               Trabalho
+     000000CF  _TF4                               Trabalho
+     000000D0  G$P$0$0                            Trabalho
+     000000D0  G$PSW$0$0                          Trabalho
+     000000D0  _P                                 Trabalho
+     000000D0  _PSW                               Trabalho
+     000000D1  G$F1$0$0                           Trabalho
+     000000D1  G$REF0CN$0$0                       Trabalho
+     000000D1  _F1                                Trabalho
+     000000D1  _REF0CN                            Trabalho
+     000000D2  G$DAC0L$0$0                        Trabalho
+     000000D2  G$DAC1L$0$0                        Trabalho
+     000000D2  G$OV$0$0                           Trabalho
+     000000D2  _DAC0L                             Trabalho
+     000000D2  _DAC1L                             Trabalho
+     000000D2  _OV                                Trabalho
+     000000D3  G$DAC0H$0$0                        Trabalho
+     000000D3  G$DAC1H$0$0                        Trabalho
+     000000D3  G$RS0$0$0                          Trabalho
+     000000D3  _DAC0H                             Trabalho
+     000000D3  _DAC1H                             Trabalho
+     000000D3  _RS0                               Trabalho
+     000000D4  G$DAC0CN$0$0                       Trabalho
+     000000D4  G$DAC1CN$0$0                       Trabalho
+     000000D4  G$RS1$0$0                          Trabalho
+     000000D4  _DAC0CN                            Trabalho
+     000000D4  _DAC1CN                            Trabalho
+     000000D4  _RS1                               Trabalho
+     000000D5  G$F0$0$0                           Trabalho
+     000000D5  _F0                                Trabalho
+     000000D6  G$AC$0$0                           Trabalho
+     000000D6  G$HVA0CN$0$0                       Trabalho
+     000000D6  _AC                                Trabalho
+     000000D6  _HVA0CN                            Trabalho
+     000000D7  G$CY$0$0                           Trabalho
+     000000D7  _CY                                Trabalho
+     000000D8  G$CAN0DATL$0$0                     Trabalho
+     000000D8  G$CCF0$0$0                         Trabalho
+     000000D8  G$P5$0$0                           Trabalho
+     000000D8  G$P5_0$0$0                         Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D8  G$PCA0CN$0$0                       Trabalho
+     000000D8  _CAN0DATL                          Trabalho
+     000000D8  _CCF0                              Trabalho
+     000000D8  _P5                                Trabalho
+     000000D8  _P5_0                              Trabalho
+     000000D8  _PCA0CN                            Trabalho
+     000000D9  G$CAN0DATH$0$0                     Trabalho
+     000000D9  G$CCF1$0$0                         Trabalho
+     000000D9  G$P5_1$0$0                         Trabalho
+     000000D9  G$PCA0MD$0$0                       Trabalho
+     000000D9  _CAN0DATH                          Trabalho
+     000000D9  _CCF1                              Trabalho
+     000000D9  _P5_1                              Trabalho
+     000000D9  _PCA0MD                            Trabalho
+     000000DA  G$CAN0ADR$0$0                      Trabalho
+     000000DA  G$CCF2$0$0                         Trabalho
+     000000DA  G$P5_2$0$0                         Trabalho
+     000000DA  G$PCA0CPM0$0$0                     Trabalho
+     000000DA  _CAN0ADR                           Trabalho
+     000000DA  _CCF2                              Trabalho
+     000000DA  _P5_2                              Trabalho
+     000000DA  _PCA0CPM0                          Trabalho
+     000000DB  G$CAN0TST$0$0                      Trabalho
+     000000DB  G$CCF3$0$0                         Trabalho
+     000000DB  G$P5_3$0$0                         Trabalho
+     000000DB  G$PCA0CPM1$0$0                     Trabalho
+     000000DB  _CAN0TST                           Trabalho
+     000000DB  _CCF3                              Trabalho
+     000000DB  _P5_3                              Trabalho
+     000000DB  _PCA0CPM1                          Trabalho
+     000000DC  G$CCF4$0$0                         Trabalho
+     000000DC  G$P5_4$0$0                         Trabalho
+     000000DC  G$PCA0CPM2$0$0                     Trabalho
+     000000DC  _CCF4                              Trabalho
+     000000DC  _P5_4                              Trabalho
+     000000DC  _PCA0CPM2                          Trabalho
+     000000DD  G$CCF5$0$0                         Trabalho
+     000000DD  G$P5_5$0$0                         Trabalho
+     000000DD  G$PCA0CPM3$0$0                     Trabalho
+     000000DD  _CCF5                              Trabalho
+     000000DD  _P5_5                              Trabalho
+     000000DD  _PCA0CPM3                          Trabalho
+     000000DE  G$CR$0$0                           Trabalho
+     000000DE  G$P5_6$0$0                         Trabalho
+     000000DE  G$PCA0CPM4$0$0                     Trabalho
+     000000DE  _CR                                Trabalho
+     000000DE  _P5_6                              Trabalho
+     000000DE  _PCA0CPM4                          Trabalho
+     000000DF  G$CF$0$0                           Trabalho
+     000000DF  G$P5_7$0$0                         Trabalho
+     000000DF  G$PCA0CPM5$0$0                     Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DF  _CF                                Trabalho
+     000000DF  _P5_7                              Trabalho
+     000000DF  _PCA0CPM5                          Trabalho
+     000000E0  G$ACC$0$0                          Trabalho
+     000000E0  _ACC                               Trabalho
+     000000E1  G$PCA0CPL5$0$0                     Trabalho
+     000000E1  G$XBR0$0$0                         Trabalho
+     000000E1  _PCA0CPL5                          Trabalho
+     000000E1  _XBR0                              Trabalho
+     000000E2  G$PCA0CPH5$0$0                     Trabalho
+     000000E2  G$XBR1$0$0                         Trabalho
+     000000E2  _PCA0CPH5                          Trabalho
+     000000E2  _XBR1                              Trabalho
+     000000E3  G$XBR2$0$0                         Trabalho
+     000000E3  _XBR2                              Trabalho
+     000000E4  G$XBR3$0$0                         Trabalho
+     000000E4  _XBR3                              Trabalho
+     000000E6  G$EIE1$0$0                         Trabalho
+     000000E6  _EIE1                              Trabalho
+     000000E7  G$EIE2$0$0                         Trabalho
+     000000E7  _EIE2                              Trabalho
+     000000E8  G$AD0LJST$0$0                      Trabalho
+     000000E8  G$AD2WINT$0$0                      Trabalho
+     000000E8  G$ADC0CN$0$0                       Trabalho
+     000000E8  G$ADC2CN$0$0                       Trabalho
+     000000E8  G$P6$0$0                           Trabalho
+     000000E8  G$P6_0$0$0                         Trabalho
+     000000E8  _AD0LJST                           Trabalho
+     000000E8  _AD2WINT                           Trabalho
+     000000E8  _ADC0CN                            Trabalho
+     000000E8  _ADC2CN                            Trabalho
+     000000E8  _P6                                Trabalho
+     000000E8  _P6_0                              Trabalho
+     000000E9  G$AD0WINT$0$0                      Trabalho
+     000000E9  G$AD2CM0$0$0                       Trabalho
+     000000E9  G$P6_1$0$0                         Trabalho
+     000000E9  G$PCA0CPL2$0$0                     Trabalho
+     000000E9  _AD0WINT                           Trabalho
+     000000E9  _AD2CM0                            Trabalho
+     000000E9  _P6_1                              Trabalho
+     000000E9  _PCA0CPL2                          Trabalho
+     000000EA  G$AD0CM0$0$0                       Trabalho
+     000000EA  G$AD2CM1$0$0                       Trabalho
+     000000EA  G$P6_2$0$0                         Trabalho
+     000000EA  G$PCA0CPH2$0$0                     Trabalho
+     000000EA  _AD0CM0                            Trabalho
+     000000EA  _AD2CM1                            Trabalho
+     000000EA  _P6_2                              Trabalho
+     000000EA  _PCA0CPH2                          Trabalho
+     000000EB  G$AD0CM1$0$0                       Trabalho
+     000000EB  G$AD2CM2$0$0                       Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000EB  G$P6_3$0$0                         Trabalho
+     000000EB  G$PCA0CPL3$0$0                     Trabalho
+     000000EB  _AD0CM1                            Trabalho
+     000000EB  _AD2CM2                            Trabalho
+     000000EB  _P6_3                              Trabalho
+     000000EB  _PCA0CPL3                          Trabalho
+     000000EC  G$AD0BUSY$0$0                      Trabalho
+     000000EC  G$AD2BUSY$0$0                      Trabalho
+     000000EC  G$P6_4$0$0                         Trabalho
+     000000EC  G$PCA0CPH3$0$0                     Trabalho
+     000000EC  _AD0BUSY                           Trabalho
+     000000EC  _AD2BUSY                           Trabalho
+     000000EC  _P6_4                              Trabalho
+     000000EC  _PCA0CPH3                          Trabalho
+     000000ED  G$AD0INT$0$0                       Trabalho
+     000000ED  G$AD2INT$0$0                       Trabalho
+     000000ED  G$P6_5$0$0                         Trabalho
+     000000ED  G$PCA0CPL4$0$0                     Trabalho
+     000000ED  _AD0INT                            Trabalho
+     000000ED  _AD2INT                            Trabalho
+     000000ED  _P6_5                              Trabalho
+     000000ED  _PCA0CPL4                          Trabalho
+     000000EE  G$AD0TM$0$0                        Trabalho
+     000000EE  G$AD2TM$0$0                        Trabalho
+     000000EE  G$P6_6$0$0                         Trabalho
+     000000EE  G$PCA0CPH4$0$0                     Trabalho
+     000000EE  _AD0TM                             Trabalho
+     000000EE  _AD2TM                             Trabalho
+     000000EE  _P6_6                              Trabalho
+     000000EE  _PCA0CPH4                          Trabalho
+     000000EF  G$AD0EN$0$0                        Trabalho
+     000000EF  G$AD2EN$0$0                        Trabalho
+     000000EF  G$P6_7$0$0                         Trabalho
+     000000EF  G$RSTSRC$0$0                       Trabalho
+     000000EF  _AD0EN                             Trabalho
+     000000EF  _AD2EN                             Trabalho
+     000000EF  _P6_7                              Trabalho
+     000000EF  _RSTSRC                            Trabalho
+     000000F0  G$B$0$0                            Trabalho
+     000000F0  _B                                 Trabalho
+     000000F5  _B_5                               _gptrget
+     000000F6  G$EIP1$0$0                         Trabalho
+     000000F6  _B_6                               _gptrget
+     000000F6  _EIP1                              Trabalho
+     000000F7  G$EIP2$0$0                         Trabalho
+     000000F7  _B_7                               _gptrget
+     000000F7  _EIP2                              Trabalho
+     000000F8  G$CAN0CN$0$0                       Trabalho
+     000000F8  G$CANINIT$0$0                      Trabalho
+     000000F8  G$P7$0$0                           Trabalho
+     000000F8  G$P7_0$0$0                         Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F8  G$SPI0CN$0$0                       Trabalho
+     000000F8  G$SPIEN$0$0                        Trabalho
+     000000F8  _CAN0CN                            Trabalho
+     000000F8  _CANINIT                           Trabalho
+     000000F8  _P7                                Trabalho
+     000000F8  _P7_0                              Trabalho
+     000000F8  _SPI0CN                            Trabalho
+     000000F8  _SPIEN                             Trabalho
+     000000F9  G$CANIE$0$0                        Trabalho
+     000000F9  G$P7_1$0$0                         Trabalho
+     000000F9  G$PCA0L$0$0                        Trabalho
+     000000F9  G$TXBMT$0$0                        Trabalho
+     000000F9  _CANIE                             Trabalho
+     000000F9  _P7_1                              Trabalho
+     000000F9  _PCA0L                             Trabalho
+     000000F9  _TXBMT                             Trabalho
+     000000FA  G$CANSIE$0$0                       Trabalho
+     000000FA  G$NSSMD0$0$0                       Trabalho
+     000000FA  G$P7_2$0$0                         Trabalho
+     000000FA  G$PCA0H$0$0                        Trabalho
+     000000FA  _CANSIE                            Trabalho
+     000000FA  _NSSMD0                            Trabalho
+     000000FA  _P7_2                              Trabalho
+     000000FA  _PCA0H                             Trabalho
+     000000FB  G$CANEIE$0$0                       Trabalho
+     000000FB  G$NSSMD1$0$0                       Trabalho
+     000000FB  G$P7_3$0$0                         Trabalho
+     000000FB  G$PCA0CPL0$0$0                     Trabalho
+     000000FB  _CANEIE                            Trabalho
+     000000FB  _NSSMD1                            Trabalho
+     000000FB  _P7_3                              Trabalho
+     000000FB  _PCA0CPL0                          Trabalho
+     000000FC  G$CANIF$0$0                        Trabalho
+     000000FC  G$P7_4$0$0                         Trabalho
+     000000FC  G$PCA0CPH0$0$0                     Trabalho
+     000000FC  G$RXOVRN$0$0                       Trabalho
+     000000FC  _CANIF                             Trabalho
+     000000FC  _P7_4                              Trabalho
+     000000FC  _PCA0CPH0                          Trabalho
+     000000FC  _RXOVRN                            Trabalho
+     000000FD  G$CANDAR$0$0                       Trabalho
+     000000FD  G$MODF$0$0                         Trabalho
+     000000FD  G$P7_5$0$0                         Trabalho
+     000000FD  G$PCA0CPL1$0$0                     Trabalho
+     000000FD  _CANDAR                            Trabalho
+     000000FD  _MODF                              Trabalho
+     000000FD  _P7_5                              Trabalho
+     000000FD  _PCA0CPL1                          Trabalho
+     000000FE  G$CANCCE$0$0                       Trabalho
+     000000FE  G$P7_6$0$0                         Trabalho
+     000000FE  G$PCA0CPH1$0$0                     Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000FE  G$WCOL$0$0                         Trabalho
+     000000FE  _CANCCE                            Trabalho
+     000000FE  _P7_6                              Trabalho
+     000000FE  _PCA0CPH1                          Trabalho
+     000000FE  _WCOL                              Trabalho
+     000000FF  G$CANTEST$0$0                      Trabalho
+     000000FF  G$P7_7$0$0                         Trabalho
+     000000FF  G$SPIF$0$0                         Trabalho
+     000000FF  G$WDTCN$0$0                        Trabalho
+     000000FF  _CANTEST                           Trabalho
+     000000FF  _P7_7                              Trabalho
+     000000FF  _SPIF                              Trabalho
+     000000FF  _WDTCN                             Trabalho
+     00008382  G$DP$0$0                           Trabalho
+     00008382  _DP                                Trabalho
+     0000BFBE  G$ADC0$0$0                         Trabalho
+     0000BFBE  _ADC0                              Trabalho
+     0000C5C4  G$ADC0GT$0$0                       Trabalho
+     0000C5C4  _ADC0GT                            Trabalho
+     0000C7C6  G$ADC0LT$0$0                       Trabalho
+     0000C7C6  _ADC0LT                            Trabalho
+     0000CBCA  G$RCAP2$0$0                        Trabalho
+     0000CBCA  G$RCAP3$0$0                        Trabalho
+     0000CBCA  G$RCAP4$0$0                        Trabalho
+     0000CBCA  _RCAP2                             Trabalho
+     0000CBCA  _RCAP3                             Trabalho
+     0000CBCA  _RCAP4                             Trabalho
+     0000CDCC  G$TMR2$0$0                         Trabalho
+     0000CDCC  G$TMR3$0$0                         Trabalho
+     0000CDCC  G$TMR4$0$0                         Trabalho
+     0000CDCC  _TMR2                              Trabalho
+     0000CDCC  _TMR3                              Trabalho
+     0000CDCC  _TMR4                              Trabalho
+     0000D3D2  G$DAC0$0$0                         Trabalho
+     0000D3D2  G$DAC1$0$0                         Trabalho
+     0000D3D2  _DAC0                              Trabalho
+     0000D3D2  _DAC1                              Trabalho
+     0000D9D8  G$CAN0DAT$0$0                      Trabalho
+     0000D9D8  _CAN0DAT                           Trabalho
+     0000E2E1  G$PCA0CP5$0$0                      Trabalho
+     0000E2E1  _PCA0CP5                           Trabalho
+     0000EAE9  G$PCA0CP2$0$0                      Trabalho
+     0000EAE9  _PCA0CP2                           Trabalho
+     0000ECEB  G$PCA0CP3$0$0                      Trabalho
+     0000ECEB  _PCA0CP3                           Trabalho
+     0000EEED  G$PCA0CP4$0$0                      Trabalho
+     0000EEED  _PCA0CP4                           Trabalho
+     0000FAF9  G$PCA0$0$0                         Trabalho
+     0000FAF9  _PCA0                              Trabalho
+     0000FCFB  G$PCA0CP0$0$0                      Trabalho
+     0000FCFB  _PCA0CP0                           Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FEFD  G$PCA0CP1$0$0                      Trabalho
+     0000FEFD  _PCA0CP1                           Trabalho
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000071 =         113. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000000E  _bp                                _bp
+     00000023  G$readdata$0$0                     Trabalho
+     00000023  _readdata                          Trabalho
+     00000025  G$busyflag$0$0                     Trabalho
+     00000025  _busyflag                          Trabalho
+     00000026  G$datn$0$0                         Trabalho
+     00000026  _datn                              Trabalho
+     00000027  G$count$0$0                        Trabalho
+     00000027  _count                             Trabalho
+     00000028  G$word1$0$0                        Trabalho
+     00000028  _word1                             Trabalho
+     0000002C  G$lastDiscrep$0$0                  Trabalho
+     0000002C  _lastDiscrep                       Trabalho
+     0000002D  G$doneFlag$0$0                     Trabalho
+     0000002D  _doneFlag                          Trabalho
+     0000002E  G$numROMs$0$0                      Trabalho
+     0000002E  _numROMs                           Trabalho
+     0000002F  G$dowcrc$0$0                       Trabalho
+     0000002F  _dowcrc                            Trabalho
+     00000030  G$time$0$0                         Trabalho
+     00000030  _time                              Trabalho
+     00000032  G$i$0$0                            Trabalho
+     00000032  _i                                 Trabalho
+     00000034  G$numDev$0$0                       Trabalho
+     00000034  _numDev                            Trabalho
+     00000036  LTrabalho.Tempprocess$tt$1$91      Trabalho
+     0000003A  LTrabalho.Tempprocess$sloc0$1$0    Trabalho
+     0000003E  LTrabalho.putchar$cont_car$1$110   Trabalho
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                0000000F    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000000F  LTrabalho.aligned_alloc$size$1$5   Trabalho
+     0000000F  _aligned_alloc_PARM_2              Trabalho
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                0000003F    000000C1 =         193. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000003F  __start__stack                     Trabalho
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$Trabalho$1366                    Trabalho
+C:   00000003  A$Trabalho$1409                    Trabalho
+C:   00000003  __sdcc_program_startup             Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000006    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000006  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000009    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000013    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000013  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000035    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000035  __mcs51_genRAMCLEAR                
+C:   0000003B  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              0000005F    0000000F =          15. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005F  A$Trabalho$1390                    Trabalho
+C:   0000005F  C$Trabalho.c$385$1$110             Trabalho
+C:   00000062  A$Trabalho$1393                    Trabalho
+C:   00000062  C$Trabalho.c$49$1$113              Trabalho
+C:   00000065  A$Trabalho$1396                    Trabalho
+C:   00000065  C$Trabalho.c$50$1$113              Trabalho
+C:   00000068  A$Trabalho$1399                    Trabalho
+C:   00000068  C$Trabalho.c$54$1$113              Trabalho
+C:   0000006B  A$Trabalho$1400                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000006E    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000006E  A$Trabalho$1402                    Trabalho
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000071  A$Trabalho$1435                    Trabalho
+C:   00000071  C$configTrab.c$10$0$0              Trabalho
+C:   00000071  C$configTrab.c$12$1$1              Trabalho
+C:   00000071  G$Timer_Init$0$0                   Trabalho
+C:   00000071  _Timer_Init                        Trabalho
+C:   00000074  A$Trabalho$1438                    Trabalho
+C:   00000074  C$configTrab.c$13$1$1              Trabalho
+C:   00000077  A$Trabalho$1441                    Trabalho
+C:   00000077  C$configTrab.c$14$1$1              Trabalho
+C:   0000007A  A$Trabalho$1444                    Trabalho
+C:   0000007A  C$configTrab.c$15$1$1              Trabalho
+C:   0000007D  A$Trabalho$1447                    Trabalho
+C:   0000007D  C$configTrab.c$16$1$1              Trabalho
+C:   0000007D  XG$Timer_Init$0$0                  Trabalho
+C:   0000007E  A$Trabalho$1460                    Trabalho
+C:   0000007E  C$configTrab.c$18$1$1              Trabalho
+C:   0000007E  C$configTrab.c$20$1$2              Trabalho
+C:   0000007E  G$UART_Init$0$0                    Trabalho
+C:   0000007E  _UART_Init                         Trabalho
+C:   00000081  A$Trabalho$1463                    Trabalho
+C:   00000081  C$configTrab.c$21$1$2              Trabalho
+C:   00000084  A$Trabalho$1466                    Trabalho
+C:   00000084  C$configTrab.c$22$1$2              Trabalho
+C:   00000087  A$Trabalho$1469                    Trabalho
+C:   00000087  C$configTrab.c$23$1$2              Trabalho
+C:   0000008A  A$Trabalho$1472                    Trabalho
+C:   0000008A  C$configTrab.c$24$1$2              Trabalho
+C:   0000008A  XG$UART_Init$0$0                   Trabalho
+C:   0000008B  A$Trabalho$1485                    Trabalho
+C:   0000008B  C$configTrab.c$26$1$2              Trabalho
+C:   0000008B  C$configTrab.c$28$1$3              Trabalho
+C:   0000008B  G$Voltage_Reference_Init$0$0       Trabalho
+C:   0000008B  _Voltage_Reference_Init            Trabalho
+C:   0000008E  A$Trabalho$1488                    Trabalho
+C:   0000008E  C$configTrab.c$29$1$3              Trabalho
+C:   00000091  A$Trabalho$1491                    Trabalho
+C:   00000091  C$configTrab.c$30$1$3              Trabalho
+C:   00000091  XG$Voltage_Reference_Init$0$0      Trabalho
+C:   00000092  A$Trabalho$1504                    Trabalho
+C:   00000092  C$configTrab.c$32$1$3              Trabalho
+C:   00000092  C$configTrab.c$70$1$4              Trabalho
+C:   00000092  G$Port_IO_Init$0$0                 Trabalho
+C:   00000092  _Port_IO_Init                      Trabalho
+C:   00000095  A$Trabalho$1507                    Trabalho
+C:   00000095  C$configTrab.c$71$1$4              Trabalho
+C:   00000098  A$Trabalho$1510                    Trabalho
+C:   00000098  C$configTrab.c$72$1$4              Trabalho
+C:   00000098  XG$Port_IO_Init$0$0                Trabalho
+C:   00000099  A$Trabalho$1523                    Trabalho
+C:   00000099  C$configTrab.c$74$1$4              Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000099  C$configTrab.c$76$1$5              Trabalho
+C:   00000099  G$Interrupts_Init$0$0              Trabalho
+C:   00000099  _Interrupts_Init                   Trabalho
+C:   0000009C  A$Trabalho$1526                    Trabalho
+C:   0000009C  C$configTrab.c$77$1$5              Trabalho
+C:   0000009F  A$Trabalho$1529                    Trabalho
+C:   0000009F  C$configTrab.c$78$1$5              Trabalho
+C:   0000009F  XG$Interrupts_Init$0$0             Trabalho
+C:   000000A0  A$Trabalho$1542                    Trabalho
+C:   000000A0  C$configTrab.c$82$1$5              Trabalho
+C:   000000A0  C$configTrab.c$84$1$7              Trabalho
+C:   000000A0  G$Init_Device$0$0                  Trabalho
+C:   000000A0  _Init_Device                       Trabalho
+C:   000000A3  A$Trabalho$1545                    Trabalho
+C:   000000A3  C$configTrab.c$85$1$7              Trabalho
+C:   000000A6  A$Trabalho$1548                    Trabalho
+C:   000000A6  C$configTrab.c$86$1$7              Trabalho
+C:   000000A9  A$Trabalho$1551                    Trabalho
+C:   000000A9  C$configTrab.c$87$1$7              Trabalho
+C:   000000AC  A$Trabalho$1554                    Trabalho
+C:   000000AC  C$configTrab.c$88$1$7              Trabalho
+C:   000000AF  A$Trabalho$1557                    Trabalho
+C:   000000AF  C$configTrab.c$89$1$7              Trabalho
+C:   000000AF  XG$Init_Device$0$0                 Trabalho
+C:   000000B0  A$Trabalho$1570                    Trabalho
+C:   000000B0  C$Trabalho.c$63$1$7                Trabalho
+C:   000000B0  G$delay$0$0                        Trabalho
+C:   000000B0  _delay                             Trabalho
+C:   000000B2  A$Trabalho$1571                    Trabalho
+C:   000000B4  A$Trabalho$1575                    Trabalho
+C:   000000B4  C$Trabalho.c$65$1$62               Trabalho
+C:   000000B6  A$Trabalho$1576                    Trabalho
+C:   000000B8  A$Trabalho$1577                    Trabalho
+C:   000000B9  A$Trabalho$1578                    Trabalho
+C:   000000BC  A$Trabalho$1579                    Trabalho
+C:   000000BD  A$Trabalho$1581                    Trabalho
+C:   000000BE  A$Trabalho$1582                    Trabalho
+C:   000000BF  A$Trabalho$1583                    Trabalho
+C:   000000C1  A$Trabalho$1586                    Trabalho
+C:   000000C1  C$Trabalho.c$66$1$62               Trabalho
+C:   000000C1  XG$delay$0$0                       Trabalho
+C:   000000C2  A$Trabalho$1600                    Trabalho
+C:   000000C2  C$Trabalho.c$68$1$62               Trabalho
+C:   000000C2  G$delay_ms$0$0                     Trabalho
+C:   000000C2  _delay_ms                          Trabalho
+C:   000000C4  A$Trabalho$1601                    Trabalho
+C:   000000C6  A$Trabalho$1605                    Trabalho
+C:   000000C7  A$Trabalho$1606                    Trabalho
+C:   000000C8  A$Trabalho$1607                    Trabalho
+C:   000000CA  A$Trabalho$1610                    Trabalho
+C:   000000CA  C$Trabalho.c$73$1$64               Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000CC  A$Trabalho$1612                    Trabalho
+C:   000000CD  A$Trabalho$1613                    Trabalho
+C:   000000CF  A$Trabalho$1614                    Trabalho
+C:   000000D0  A$Trabalho$1615                    Trabalho
+C:   000000D2  A$Trabalho$1619                    Trabalho
+C:   000000D2  C$Trabalho.c$72$1$64               Trabalho
+C:   000000D3  A$Trabalho$1620                    Trabalho
+C:   000000D6  A$Trabalho$1621                    Trabalho
+C:   000000D7  A$Trabalho$1623                    Trabalho
+C:   000000D9  A$Trabalho$1627                    Trabalho
+C:   000000D9  C$Trabalho.c$74$1$64               Trabalho
+C:   000000D9  XG$delay_ms$0$0                    Trabalho
+C:   000000DA  A$Trabalho$1641                    Trabalho
+C:   000000DA  C$Trabalho.c$76$1$64               Trabalho
+C:   000000DA  G$delay_us$0$0                     Trabalho
+C:   000000DA  _delay_us                          Trabalho
+C:   000000DC  A$Trabalho$1642                    Trabalho
+C:   000000DE  A$Trabalho$1645                    Trabalho
+C:   000000DE  C$Trabalho.c$79$1$66               Trabalho
+C:   000000E0  A$Trabalho$1646                    Trabalho
+C:   000000E2  A$Trabalho$1648                    Trabalho
+C:   000000E3  A$Trabalho$1649                    Trabalho
+C:   000000E4  A$Trabalho$1650                    Trabalho
+C:   000000E5  A$Trabalho$1651                    Trabalho
+C:   000000E6  A$Trabalho$1652                    Trabalho
+C:   000000E8  A$Trabalho$1653                    Trabalho
+C:   000000EA  A$Trabalho$1654                    Trabalho
+C:   000000ED  A$Trabalho$1655                    Trabalho
+C:   000000EF  A$Trabalho$1656                    Trabalho
+C:   000000F1  A$Trabalho$1657                    Trabalho
+C:   000000F2  A$Trabalho$1658                    Trabalho
+C:   000000F5  A$Trabalho$1659                    Trabalho
+C:   000000F6  A$Trabalho$1660                    Trabalho
+C:   000000F8  A$Trabalho$1664                    Trabalho
+C:   000000F8  C$Trabalho.c$80$1$66               Trabalho
+C:   000000F8  XG$delay_us$0$0                    Trabalho
+C:   000000F9  A$Trabalho$1679                    Trabalho
+C:   000000F9  C$Trabalho.c$88$1$66               Trabalho
+C:   000000F9  C$Trabalho.c$91$1$68               Trabalho
+C:   000000F9  G$ow_reset$0$0                     Trabalho
+C:   000000F9  _ow_reset                          Trabalho
+C:   000000FB  A$Trabalho$1682                    Trabalho
+C:   000000FB  C$Trabalho.c$92$1$68               Trabalho
+C:   000000FE  A$Trabalho$1683                    Trabalho
+C:   00000101  A$Trabalho$1686                    Trabalho
+C:   00000101  C$Trabalho.c$93$1$68               Trabalho
+C:   00000103  A$Trabalho$1689                    Trabalho
+C:   00000103  C$Trabalho.c$94$1$68               Trabalho
+C:   00000106  A$Trabalho$1690                    Trabalho
+C:   00000109  A$Trabalho$1693                    Trabalho
+C:   00000109  C$Trabalho.c$95$1$68               Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000010B  A$Trabalho$1694                    Trabalho
+C:   0000010C  A$Trabalho$1695                    Trabalho
+C:   0000010D  A$Trabalho$1696                    Trabalho
+C:   0000010E  A$Trabalho$1697                    Trabalho
+C:   00000110  A$Trabalho$1700                    Trabalho
+C:   00000110  C$Trabalho.c$96$1$68               Trabalho
+C:   00000113  A$Trabalho$1701                    Trabalho
+C:   00000115  A$Trabalho$1702                    Trabalho
+C:   00000117  A$Trabalho$1703                    Trabalho
+C:   0000011A  A$Trabalho$1704                    Trabalho
+C:   0000011C  A$Trabalho$1705                    Trabalho
+C:   0000011E  A$Trabalho$1708                    Trabalho
+C:   0000011E  C$Trabalho.c$97$1$68               Trabalho
+C:   00000120  A$Trabalho$1709                    Trabalho
+C:   00000122  A$Trabalho$1712                    Trabalho
+C:   00000122  C$Trabalho.c$98$1$68               Trabalho
+C:   00000122  XG$ow_reset$0$0                    Trabalho
+C:   00000123  A$Trabalho$1727                    Trabalho
+C:   00000123  C$Trabalho.c$101$1$68              Trabalho
+C:   00000123  C$Trabalho.c$104$1$70              Trabalho
+C:   00000123  G$Init_DS18B20$0$0                 Trabalho
+C:   00000123  _Init_DS18B20                      Trabalho
+C:   00000125  A$Trabalho$1730                    Trabalho
+C:   00000125  C$Trabalho.c$105$1$70              Trabalho
+C:   00000128  A$Trabalho$1731                    Trabalho
+C:   0000012B  A$Trabalho$1734                    Trabalho
+C:   0000012B  C$Trabalho.c$106$1$70              Trabalho
+C:   0000012D  A$Trabalho$1737                    Trabalho
+C:   0000012D  C$Trabalho.c$107$1$70              Trabalho
+C:   00000130  A$Trabalho$1738                    Trabalho
+C:   00000133  A$Trabalho$1741                    Trabalho
+C:   00000133  C$Trabalho.c$108$1$70              Trabalho
+C:   00000135  A$Trabalho$1744                    Trabalho
+C:   00000135  C$Trabalho.c$109$1$70              Trabalho
+C:   00000138  A$Trabalho$1745                    Trabalho
+C:   0000013B  A$Trabalho$1748                    Trabalho
+C:   0000013B  C$Trabalho.c$110$1$70              Trabalho
+C:   0000013D  A$Trabalho$1751                    Trabalho
+C:   0000013D  C$Trabalho.c$111$1$70              Trabalho
+C:   00000140  A$Trabalho$1752                    Trabalho
+C:   00000143  A$Trabalho$1755                    Trabalho
+C:   00000143  C$Trabalho.c$112$1$70              Trabalho
+C:   00000143  XG$Init_DS18B20$0$0                Trabalho
+C:   00000144  A$Trabalho$1771                    Trabalho
+C:   00000144  C$Trabalho.c$115$1$70              Trabalho
+C:   00000144  C$Trabalho.c$118$1$70              Trabalho
+C:   00000144  G$ReadOneChar$0$0                  Trabalho
+C:   00000144  _ReadOneChar                       Trabalho
+C:   00000146  A$Trabalho$1774                    Trabalho
+C:   00000148  A$Trabalho$1778                    Trabalho
+C:   00000148  C$Trabalho.c$121$2$73              Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000014A  A$Trabalho$1781                    Trabalho
+C:   0000014A  C$Trabalho.c$122$2$73              Trabalho
+C:   0000014D  A$Trabalho$1782                    Trabalho
+C:   0000014F  A$Trabalho$1783                    Trabalho
+C:   00000151  A$Trabalho$1784                    Trabalho
+C:   00000154  A$Trabalho$1785                    Trabalho
+C:   00000156  A$Trabalho$1786                    Trabalho
+C:   00000158  A$Trabalho$1789                    Trabalho
+C:   00000158  C$Trabalho.c$123$2$73              Trabalho
+C:   0000015A  A$Trabalho$1792                    Trabalho
+C:   0000015A  C$Trabalho.c$124$2$73              Trabalho
+C:   0000015D  A$Trabalho$1795                    Trabalho
+C:   0000015D  C$Trabalho.c$125$2$73              Trabalho
+C:   0000015F  A$Trabalho$1796                    Trabalho
+C:   00000161  A$Trabalho$1797                    Trabalho
+C:   00000163  A$Trabalho$1798                    Trabalho
+C:   00000165  A$Trabalho$1800                    Trabalho
+C:   00000167  A$Trabalho$1802                    Trabalho
+C:   0000016A  A$Trabalho$1803                    Trabalho
+C:   0000016B  A$Trabalho$1804                    Trabalho
+C:   0000016D  A$Trabalho$1808                    Trabalho
+C:   0000016D  C$Trabalho.c$126$2$73              Trabalho
+C:   00000170  A$Trabalho$1809                    Trabalho
+C:   00000172  A$Trabalho$1810                    Trabalho
+C:   00000174  A$Trabalho$1811                    Trabalho
+C:   00000177  A$Trabalho$1812                    Trabalho
+C:   00000179  A$Trabalho$1813                    Trabalho
+C:   0000017B  A$Trabalho$1816                    Trabalho
+C:   0000017B  C$Trabalho.c$119$1$72              Trabalho
+C:   0000017D  A$Trabalho$1819                    Trabalho
+C:   0000017D  C$Trabalho.c$128$1$72              Trabalho
+C:   0000017F  A$Trabalho$1822                    Trabalho
+C:   0000017F  C$Trabalho.c$129$1$72              Trabalho
+C:   0000017F  XG$ReadOneChar$0$0                 Trabalho
+C:   00000180  A$Trabalho$1837                    Trabalho
+C:   00000180  C$Trabalho.c$136$1$72              Trabalho
+C:   00000180  C$Trabalho.c$139$1$75              Trabalho
+C:   00000180  G$read_bit$0$0                     Trabalho
+C:   00000180  _read_bit                          Trabalho
+C:   00000182  A$Trabalho$1840                    Trabalho
+C:   00000182  C$Trabalho.c$140$1$75              Trabalho
+C:   00000184  A$Trabalho$1843                    Trabalho
+C:   00000184  C$Trabalho.c$141$1$75              Trabalho
+C:   00000186  A$Trabalho$1845                    Trabalho
+C:   00000187  A$Trabalho$1846                    Trabalho
+C:   00000188  A$Trabalho$1847                    Trabalho
+C:   00000189  A$Trabalho$1848                    Trabalho
+C:   0000018A  A$Trabalho$1849                    Trabalho
+C:   0000018C  A$Trabalho$1852                    Trabalho
+C:   0000018C  C$Trabalho.c$142$1$75              Trabalho
+C:   0000018E  A$Trabalho$1853                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000018F  A$Trabalho$1854                    Trabalho
+C:   00000190  A$Trabalho$1855                    Trabalho
+C:   00000192  A$Trabalho$1858                    Trabalho
+C:   00000192  C$Trabalho.c$143$1$75              Trabalho
+C:   00000192  XG$read_bit$0$0                    Trabalho
+C:   00000193  A$Trabalho$1871                    Trabalho
+C:   00000193  C$Trabalho.c$145$1$75              Trabalho
+C:   00000193  G$write_bit$0$0                    Trabalho
+C:   00000193  _write_bit                         Trabalho
+C:   00000195  A$Trabalho$1874                    Trabalho
+C:   00000195  C$Trabalho.c$147$1$77              Trabalho
+C:   00000197  A$Trabalho$1877                    Trabalho
+C:   00000197  C$Trabalho.c$148$1$77              Trabalho
+C:   0000019A  A$Trabalho$1878                    Trabalho
+C:   0000019C  A$Trabalho$1882                    Trabalho
+C:   0000019C  C$Trabalho.c$149$1$77              Trabalho
+C:   0000019F  A$Trabalho$1883                    Trabalho
+C:   000001A2  A$Trabalho$1886                    Trabalho
+C:   000001A2  C$Trabalho.c$150$1$77              Trabalho
+C:   000001A4  A$Trabalho$1889                    Trabalho
+C:   000001A4  C$Trabalho.c$151$1$77              Trabalho
+C:   000001A4  XG$write_bit$0$0                   Trabalho
+C:   000001A5  A$Trabalho$1903                    Trabalho
+C:   000001A5  C$Trabalho.c$156$1$77              Trabalho
+C:   000001A5  G$WriteOneChar$0$0                 Trabalho
+C:   000001A5  _WriteOneChar                      Trabalho
+C:   000001A7  A$Trabalho$1906                    Trabalho
+C:   000001A9  A$Trabalho$1910                    Trabalho
+C:   000001A9  C$Trabalho.c$161$2$80              Trabalho
+C:   000001AB  A$Trabalho$1913                    Trabalho
+C:   000001AB  C$Trabalho.c$162$2$80              Trabalho
+C:   000001AC  A$Trabalho$1914                    Trabalho
+C:   000001AD  A$Trabalho$1915                    Trabalho
+C:   000001AF  A$Trabalho$1916                    Trabalho
+C:   000001B1  A$Trabalho$1919                    Trabalho
+C:   000001B1  C$Trabalho.c$163$2$80              Trabalho
+C:   000001B4  A$Trabalho$1920                    Trabalho
+C:   000001B6  A$Trabalho$1921                    Trabalho
+C:   000001B8  A$Trabalho$1922                    Trabalho
+C:   000001BB  A$Trabalho$1923                    Trabalho
+C:   000001BD  A$Trabalho$1924                    Trabalho
+C:   000001BF  A$Trabalho$1927                    Trabalho
+C:   000001BF  C$Trabalho.c$164$2$80              Trabalho
+C:   000001C1  A$Trabalho$1930                    Trabalho
+C:   000001C1  C$Trabalho.c$165$2$80              Trabalho
+C:   000001C2  A$Trabalho$1931                    Trabalho
+C:   000001C3  A$Trabalho$1932                    Trabalho
+C:   000001C4  A$Trabalho$1933                    Trabalho
+C:   000001C5  A$Trabalho$1936                    Trabalho
+C:   000001C5  C$Trabalho.c$159$1$79              Trabalho
+C:   000001C6  A$Trabalho$1937                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001C7  A$Trabalho$1938                    Trabalho
+C:   000001C8  A$Trabalho$1939                    Trabalho
+C:   000001C9  A$Trabalho$1940                    Trabalho
+C:   000001CB  A$Trabalho$1943                    Trabalho
+C:   000001CB  C$Trabalho.c$167$1$79              Trabalho
+C:   000001CE  A$Trabalho$1944                    Trabalho
+C:   000001D1  A$Trabalho$1947                    Trabalho
+C:   000001D1  C$Trabalho.c$168$1$79              Trabalho
+C:   000001D1  XG$WriteOneChar$0$0                Trabalho
+C:   000001D2  A$Trabalho$1968                    Trabalho
+C:   000001D2  C$Trabalho.c$174$1$79              Trabalho
+C:   000001D2  C$Trabalho.c$184$1$82              Trabalho
+C:   000001D2  G$Next$0$0                         Trabalho
+C:   000001D2  _Next                              Trabalho
+C:   000001D5  A$Trabalho$1971                    Trabalho
+C:   000001D5  C$Trabalho.c$185$1$82              Trabalho
+C:   000001D8  A$Trabalho$1972                    Trabalho
+C:   000001DA  A$Trabalho$1973                    Trabalho
+C:   000001DD  A$Trabalho$1976                    Trabalho
+C:   000001DD  C$Trabalho.c$186$1$82              Trabalho
+C:   000001DF  A$Trabalho$1977                    Trabalho
+C:   000001E1  A$Trabalho$1978                    Trabalho
+C:   000001E3  A$Trabalho$1979                    Trabalho
+C:   000001E5  A$Trabalho$1983                    Trabalho
+C:   000001E5  C$Trabalho.c$188$2$83              Trabalho
+C:   000001E8  A$Trabalho$1986                    Trabalho
+C:   000001E8  C$Trabalho.c$189$2$83              Trabalho
+C:   000001EB  A$Trabalho$1987                    Trabalho
+C:   000001ED  A$Trabalho$1991                    Trabalho
+C:   000001ED  C$Trabalho.c$191$1$82              Trabalho
+C:   000001F0  A$Trabalho$1995                    Trabalho
+C:   000001F0  C$Trabalho.c$192$1$82              Trabalho
+C:   000001F0  XG$Next$0$0                        Trabalho
+C:   000001F1  A$Trabalho$2008                    Trabalho
+C:   000001F1  C$Trabalho.c$198$1$82              Trabalho
+C:   000001F1  C$Trabalho.c$200$1$85              Trabalho
+C:   000001F1  G$First$0$0                        Trabalho
+C:   000001F1  _First                             Trabalho
+C:   000001F4  A$Trabalho$2011                    Trabalho
+C:   000001F4  C$Trabalho.c$201$1$85              Trabalho
+C:   000001F7  A$Trabalho$2014                    Trabalho
+C:   000001F7  C$Trabalho.c$202$1$85              Trabalho
+C:   000001FA  A$Trabalho$2017                    Trabalho
+C:   000001FA  C$Trabalho.c$203$1$85              Trabalho
+C:   000001FA  XG$First$0$0                       Trabalho
+C:   000001FB  A$Trabalho$2032                    Trabalho
+C:   000001FB  C$Trabalho.c$217$1$85              Trabalho
+C:   000001FB  C$Trabalho.c$220$1$87              Trabalho
+C:   000001FB  G$Send_MatchRom$0$0                Trabalho
+C:   000001FB  _Send_MatchRom                     Trabalho
+C:   000001FE  A$Trabalho$2033                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000200  A$Trabalho$2034                    Trabalho
+C:   00000203  A$Trabalho$2035                    Trabalho
+C:   00000205  A$Trabalho$2036                    Trabalho
+C:   00000207  A$Trabalho$2037                    Trabalho
+C:   0000020A  A$Trabalho$2038                    Trabalho
+C:   0000020C  A$Trabalho$2042                    Trabalho
+C:   0000020C  C$Trabalho.c$221$1$87              Trabalho
+C:   0000020F  A$Trabalho$2043                    Trabalho
+C:   00000212  A$Trabalho$2046                    Trabalho
+C:   00000212  C$Trabalho.c$222$2$88              Trabalho
+C:   00000214  A$Trabalho$2050                    Trabalho
+C:   00000214  C$Trabalho.c$224$2$88              Trabalho
+C:   00000216  A$Trabalho$2051                    Trabalho
+C:   00000219  A$Trabalho$2052                    Trabalho
+C:   0000021A  A$Trabalho$2053                    Trabalho
+C:   0000021C  A$Trabalho$2054                    Trabalho
+C:   0000021D  A$Trabalho$2055                    Trabalho
+C:   0000021F  A$Trabalho$2056                    Trabalho
+C:   00000221  A$Trabalho$2057                    Trabalho
+C:   00000222  A$Trabalho$2058                    Trabalho
+C:   00000223  A$Trabalho$2059                    Trabalho
+C:   00000224  A$Trabalho$2060                    Trabalho
+C:   00000226  A$Trabalho$2061                    Trabalho
+C:   00000227  A$Trabalho$2062                    Trabalho
+C:   00000228  A$Trabalho$2063                    Trabalho
+C:   0000022A  A$Trabalho$2064                    Trabalho
+C:   0000022B  A$Trabalho$2065                    Trabalho
+C:   0000022C  A$Trabalho$2066                    Trabalho
+C:   0000022E  A$Trabalho$2067                    Trabalho
+C:   00000230  A$Trabalho$2068                    Trabalho
+C:   00000233  A$Trabalho$2069                    Trabalho
+C:   00000235  A$Trabalho$2072                    Trabalho
+C:   00000235  C$Trabalho.c$222$1$87              Trabalho
+C:   00000236  A$Trabalho$2073                    Trabalho
+C:   00000239  A$Trabalho$2075                    Trabalho
+C:   0000023B  A$Trabalho$2078                    Trabalho
+C:   0000023B  C$Trabalho.c$226$1$87              Trabalho
+C:   0000023E  A$Trabalho$2082                    Trabalho
+C:   0000023E  C$Trabalho.c$227$1$87              Trabalho
+C:   0000023E  XG$Send_MatchRom$0$0               Trabalho
+C:   0000023F  A$Trabalho$2095                    Trabalho
+C:   0000023F  C$Trabalho.c$243$1$87              Trabalho
+C:   0000023F  C$Trabalho.c$245$1$90              Trabalho
+C:   0000023F  G$ReadTemperature$0$0              Trabalho
+C:   0000023F  _ReadTemperature                   Trabalho
+C:   00000242  A$Trabalho$2098                    Trabalho
+C:   00000242  C$Trabalho.c$246$1$90              Trabalho
+C:   00000245  A$Trabalho$2099                    Trabalho
+C:   00000248  A$Trabalho$2102                    Trabalho
+C:   00000248  C$Trabalho.c$247$1$90              Trabalho
+C:   0000024B  A$Trabalho$2103                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000024E  A$Trabalho$2106                    Trabalho
+C:   0000024E  C$Trabalho.c$248$1$90              Trabalho
+C:   00000251  A$Trabalho$2107                    Trabalho
+C:   00000254  A$Trabalho$2110                    Trabalho
+C:   00000254  C$Trabalho.c$249$1$90              Trabalho
+C:   00000257  A$Trabalho$2113                    Trabalho
+C:   00000257  C$Trabalho.c$250$1$90              Trabalho
+C:   0000025A  A$Trabalho$2114                    Trabalho
+C:   0000025D  A$Trabalho$2117                    Trabalho
+C:   0000025D  C$Trabalho.c$251$1$90              Trabalho
+C:   00000260  A$Trabalho$2118                    Trabalho
+C:   00000263  A$Trabalho$2121                    Trabalho
+C:   00000263  C$Trabalho.c$252$1$90              Trabalho
+C:   00000266  A$Trabalho$2122                    Trabalho
+C:   00000268  A$Trabalho$2123                    Trabalho
+C:   0000026A  A$Trabalho$2126                    Trabalho
+C:   0000026A  C$Trabalho.c$253$1$90              Trabalho
+C:   0000026D  A$Trabalho$2127                    Trabalho
+C:   0000026F  A$Trabalho$2128                    Trabalho
+C:   00000271  A$Trabalho$2131                    Trabalho
+C:   00000271  C$Trabalho.c$255$1$90              Trabalho
+C:   00000271  XG$ReadTemperature$0$0             Trabalho
+C:   00000272  A$Trabalho$2149                    Trabalho
+C:   00000272  C$Trabalho.c$257$1$90              Trabalho
+C:   00000272  C$Trabalho.c$262$1$91              Trabalho
+C:   00000272  G$Tempprocess$0$0                  Trabalho
+C:   00000272  _Tempprocess                       Trabalho
+C:   00000274  A$Trabalho$2150                    Trabalho
+C:   00000275  A$Trabalho$2151                    Trabalho
+C:   00000278  A$Trabalho$2152                    Trabalho
+C:   0000027B  A$Trabalho$2156                    Trabalho
+C:   0000027B  C$Trabalho.c$264$2$92              Trabalho
+C:   0000027D  A$Trabalho$2159                    Trabalho
+C:   0000027D  C$Trabalho.c$265$2$92              Trabalho
+C:   0000027F  A$Trabalho$2160                    Trabalho
+C:   00000281  A$Trabalho$2163                    Trabalho
+C:   00000281  C$Trabalho.c$266$2$92              Trabalho
+C:   00000283  A$Trabalho$2164                    Trabalho
+C:   00000285  A$Trabalho$2165                    Trabalho
+C:   00000286  A$Trabalho$2166                    Trabalho
+C:   00000288  A$Trabalho$2167                    Trabalho
+C:   00000289  A$Trabalho$2168                    Trabalho
+C:   0000028B  A$Trabalho$2171                    Trabalho
+C:   0000028B  C$Trabalho.c$267$2$92              Trabalho
+C:   0000028C  A$Trabalho$2172                    Trabalho
+C:   0000028F  A$Trabalho$2173                    Trabalho
+C:   00000290  A$Trabalho$2177                    Trabalho
+C:   00000290  C$Trabalho.c$268$2$92              Trabalho
+C:   00000291  A$Trabalho$2178                    Trabalho
+C:   00000292  A$Trabalho$2179                    Trabalho
+C:   00000293  A$Trabalho$2180                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000294  A$Trabalho$2181                    Trabalho
+C:   00000295  A$Trabalho$2184                    Trabalho
+C:   00000295  C$Trabalho.c$269$2$92              Trabalho
+C:   00000296  A$Trabalho$2185                    Trabalho
+C:   00000297  A$Trabalho$2186                    Trabalho
+C:   00000298  A$Trabalho$2187                    Trabalho
+C:   0000029A  A$Trabalho$2188                    Trabalho
+C:   0000029B  A$Trabalho$2189                    Trabalho
+C:   0000029C  A$Trabalho$2190                    Trabalho
+C:   0000029E  A$Trabalho$2191                    Trabalho
+C:   0000029F  A$Trabalho$2192                    Trabalho
+C:   000002A0  A$Trabalho$2193                    Trabalho
+C:   000002A1  A$Trabalho$2194                    Trabalho
+C:   000002A2  A$Trabalho$2197                    Trabalho
+C:   000002A2  C$Trabalho.c$270$1$91              Trabalho
+C:   000002A4  A$Trabalho$2198                    Trabalho
+C:   000002A6  A$Trabalho$2199                    Trabalho
+C:   000002A9  A$Trabalho$2200                    Trabalho
+C:   000002AC  A$Trabalho$2201                    Trabalho
+C:   000002AF  A$Trabalho$2202                    Trabalho
+C:   000002B2  A$Trabalho$2203                    Trabalho
+C:   000002B4  A$Trabalho$2206                    Trabalho
+C:   000002B4  C$Trabalho.c$271$2$92              Trabalho
+C:   000002B6  A$Trabalho$2209                    Trabalho
+C:   000002B6  C$Trabalho.c$272$2$92              Trabalho
+C:   000002B7  A$Trabalho$2212                    Trabalho
+C:   000002B7  C$Trabalho.c$273$2$92              Trabalho
+C:   000002B8  A$Trabalho$2213                    Trabalho
+C:   000002B9  A$Trabalho$2214                    Trabalho
+C:   000002BA  A$Trabalho$2217                    Trabalho
+C:   000002BA  C$Trabalho.c$274$2$92              Trabalho
+C:   000002BD  A$Trabalho$2220                    Trabalho
+C:   000002BD  C$Trabalho.c$275$1$91              Trabalho
+C:   000002BF  A$Trabalho$2221                    Trabalho
+C:   000002C2  A$Trabalho$2222                    Trabalho
+C:   000002C5  A$Trabalho$2223                    Trabalho
+C:   000002C8  A$Trabalho$2224                    Trabalho
+C:   000002CB  A$Trabalho$2225                    Trabalho
+C:   000002CD  A$Trabalho$2226                    Trabalho
+C:   000002CF  A$Trabalho$2227                    Trabalho
+C:   000002D1  A$Trabalho$2228                    Trabalho
+C:   000002D3  A$Trabalho$2229                    Trabalho
+C:   000002D5  A$Trabalho$2230                    Trabalho
+C:   000002D8  A$Trabalho$2231                    Trabalho
+C:   000002DB  A$Trabalho$2232                    Trabalho
+C:   000002DD  A$Trabalho$2233                    Trabalho
+C:   000002E0  A$Trabalho$2234                    Trabalho
+C:   000002E3  A$Trabalho$2235                    Trabalho
+C:   000002E6  A$Trabalho$2236                    Trabalho
+C:   000002E9  A$Trabalho$2237                    Trabalho
+C:   000002EB  A$Trabalho$2238                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002ED  A$Trabalho$2239                    Trabalho
+C:   000002EF  A$Trabalho$2240                    Trabalho
+C:   000002F1  A$Trabalho$2243                    Trabalho
+C:   000002F1  C$Trabalho.c$276$1$91              Trabalho
+C:   000002F3  A$Trabalho$2244                    Trabalho
+C:   000002F5  A$Trabalho$2245                    Trabalho
+C:   000002F7  A$Trabalho$2246                    Trabalho
+C:   000002F9  A$Trabalho$2247                    Trabalho
+C:   000002FC  A$Trabalho$2248                    Trabalho
+C:   000002FF  A$Trabalho$2249                    Trabalho
+C:   00000302  A$Trabalho$2250                    Trabalho
+C:   00000304  A$Trabalho$2251                    Trabalho
+C:   00000307  A$Trabalho$2252                    Trabalho
+C:   0000030A  A$Trabalho$2253                    Trabalho
+C:   0000030D  A$Trabalho$2254                    Trabalho
+C:   00000310  A$Trabalho$2255                    Trabalho
+C:   00000312  A$Trabalho$2256                    Trabalho
+C:   00000314  A$Trabalho$2257                    Trabalho
+C:   00000316  A$Trabalho$2258                    Trabalho
+C:   00000318  A$Trabalho$2259                    Trabalho
+C:   0000031B  A$Trabalho$2263                    Trabalho
+C:   0000031B  C$Trabalho.c$280$2$93              Trabalho
+C:   0000031D  A$Trabalho$2266                    Trabalho
+C:   0000031D  C$Trabalho.c$281$2$93              Trabalho
+C:   0000031F  A$Trabalho$2267                    Trabalho
+C:   00000321  A$Trabalho$2270                    Trabalho
+C:   00000321  C$Trabalho.c$282$2$93              Trabalho
+C:   00000323  A$Trabalho$2271                    Trabalho
+C:   00000325  A$Trabalho$2272                    Trabalho
+C:   00000326  A$Trabalho$2273                    Trabalho
+C:   00000328  A$Trabalho$2274                    Trabalho
+C:   00000329  A$Trabalho$2275                    Trabalho
+C:   0000032B  A$Trabalho$2278                    Trabalho
+C:   0000032B  C$Trabalho.c$283$2$93              Trabalho
+C:   0000032C  A$Trabalho$2279                    Trabalho
+C:   0000032F  A$Trabalho$2280                    Trabalho
+C:   00000330  A$Trabalho$2284                    Trabalho
+C:   00000330  C$Trabalho.c$284$2$93              Trabalho
+C:   00000331  A$Trabalho$2285                    Trabalho
+C:   00000332  A$Trabalho$2286                    Trabalho
+C:   00000333  A$Trabalho$2287                    Trabalho
+C:   00000334  A$Trabalho$2288                    Trabalho
+C:   00000335  A$Trabalho$2291                    Trabalho
+C:   00000335  C$Trabalho.c$285$2$93              Trabalho
+C:   00000336  A$Trabalho$2292                    Trabalho
+C:   00000337  A$Trabalho$2293                    Trabalho
+C:   00000338  A$Trabalho$2294                    Trabalho
+C:   0000033A  A$Trabalho$2295                    Trabalho
+C:   0000033B  A$Trabalho$2296                    Trabalho
+C:   0000033C  A$Trabalho$2297                    Trabalho
+C:   0000033E  A$Trabalho$2298                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000033F  A$Trabalho$2299                    Trabalho
+C:   00000340  A$Trabalho$2300                    Trabalho
+C:   00000341  A$Trabalho$2301                    Trabalho
+C:   00000342  A$Trabalho$2304                    Trabalho
+C:   00000342  C$Trabalho.c$286$1$91              Trabalho
+C:   00000344  A$Trabalho$2305                    Trabalho
+C:   00000346  A$Trabalho$2306                    Trabalho
+C:   00000349  A$Trabalho$2307                    Trabalho
+C:   0000034C  A$Trabalho$2308                    Trabalho
+C:   0000034F  A$Trabalho$2309                    Trabalho
+C:   00000352  A$Trabalho$2310                    Trabalho
+C:   00000354  A$Trabalho$2313                    Trabalho
+C:   00000354  C$Trabalho.c$287$2$93              Trabalho
+C:   00000356  A$Trabalho$2316                    Trabalho
+C:   00000356  C$Trabalho.c$288$2$93              Trabalho
+C:   00000357  A$Trabalho$2319                    Trabalho
+C:   00000357  C$Trabalho.c$289$2$93              Trabalho
+C:   00000358  A$Trabalho$2320                    Trabalho
+C:   00000359  A$Trabalho$2321                    Trabalho
+C:   0000035A  A$Trabalho$2324                    Trabalho
+C:   0000035A  C$Trabalho.c$290$2$93              Trabalho
+C:   0000035D  A$Trabalho$2327                    Trabalho
+C:   0000035D  C$Trabalho.c$291$1$91              Trabalho
+C:   0000035F  A$Trabalho$2328                    Trabalho
+C:   00000362  A$Trabalho$2329                    Trabalho
+C:   00000364  A$Trabalho$2330                    Trabalho
+C:   00000366  A$Trabalho$2331                    Trabalho
+C:   00000368  A$Trabalho$2332                    Trabalho
+C:   00000369  A$Trabalho$2333                    Trabalho
+C:   0000036B  A$Trabalho$2334                    Trabalho
+C:   0000036D  A$Trabalho$2335                    Trabalho
+C:   0000036F  A$Trabalho$2336                    Trabalho
+C:   00000371  A$Trabalho$2337                    Trabalho
+C:   00000374  A$Trabalho$2338                    Trabalho
+C:   00000377  A$Trabalho$2339                    Trabalho
+C:   00000379  A$Trabalho$2340                    Trabalho
+C:   0000037C  A$Trabalho$2341                    Trabalho
+C:   0000037F  A$Trabalho$2342                    Trabalho
+C:   00000382  A$Trabalho$2343                    Trabalho
+C:   00000385  A$Trabalho$2344                    Trabalho
+C:   00000387  A$Trabalho$2345                    Trabalho
+C:   00000389  A$Trabalho$2346                    Trabalho
+C:   0000038B  A$Trabalho$2347                    Trabalho
+C:   0000038D  A$Trabalho$2350                    Trabalho
+C:   0000038D  C$Trabalho.c$292$1$91              Trabalho
+C:   0000038F  A$Trabalho$2351                    Trabalho
+C:   00000391  A$Trabalho$2352                    Trabalho
+C:   00000393  A$Trabalho$2353                    Trabalho
+C:   00000395  A$Trabalho$2354                    Trabalho
+C:   00000398  A$Trabalho$2355                    Trabalho
+C:   0000039B  A$Trabalho$2356                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000039E  A$Trabalho$2357                    Trabalho
+C:   000003A0  A$Trabalho$2358                    Trabalho
+C:   000003A3  A$Trabalho$2359                    Trabalho
+C:   000003A6  A$Trabalho$2360                    Trabalho
+C:   000003A9  A$Trabalho$2361                    Trabalho
+C:   000003AC  A$Trabalho$2362                    Trabalho
+C:   000003AE  A$Trabalho$2363                    Trabalho
+C:   000003B0  A$Trabalho$2364                    Trabalho
+C:   000003B2  A$Trabalho$2365                    Trabalho
+C:   000003B4  A$Trabalho$2369                    Trabalho
+C:   000003B4  C$Trabalho.c$294$1$91              Trabalho
+C:   000003B4  XG$Tempprocess$0$0                 Trabalho
+C:   000003B5  A$Trabalho$2384                    Trabalho
+C:   000003B5  C$Trabalho.c$298$1$91              Trabalho
+C:   000003B5  C$Trabalho.c$300$1$95              Trabalho
+C:   000003B5  G$le_glcd$0$0                      Trabalho
+C:   000003B5  _le_glcd                           Trabalho
+C:   000003B7  A$Trabalho$2387                    Trabalho
+C:   000003B7  C$Trabalho.c$301$1$95              Trabalho
+C:   000003B9  A$Trabalho$2388                    Trabalho
+C:   000003BB  A$Trabalho$2391                    Trabalho
+C:   000003BB  C$Trabalho.c$302$1$95              Trabalho
+C:   000003BD  A$Trabalho$2392                    Trabalho
+C:   000003BF  A$Trabalho$2395                    Trabalho
+C:   000003BF  C$Trabalho.c$303$1$95              Trabalho
+C:   000003C1  A$Trabalho$2396                    Trabalho
+C:   000003C2  A$Trabalho$2397                    Trabalho
+C:   000003C4  A$Trabalho$2400                    Trabalho
+C:   000003C4  C$Trabalho.c$304$1$95              Trabalho
+C:   000003C5  A$Trabalho$2401                    Trabalho
+C:   000003C6  A$Trabalho$2402                    Trabalho
+C:   000003C7  A$Trabalho$2403                    Trabalho
+C:   000003C8  A$Trabalho$2406                    Trabalho
+C:   000003C8  C$Trabalho.c$305$1$95              Trabalho
+C:   000003CA  A$Trabalho$2409                    Trabalho
+C:   000003CA  C$Trabalho.c$306$1$95              Trabalho
+C:   000003CB  A$Trabalho$2410                    Trabalho
+C:   000003CC  A$Trabalho$2411                    Trabalho
+C:   000003CD  A$Trabalho$2412                    Trabalho
+C:   000003CE  A$Trabalho$2413                    Trabalho
+C:   000003CF  A$Trabalho$2414                    Trabalho
+C:   000003D0  A$Trabalho$2415                    Trabalho
+C:   000003D1  A$Trabalho$2416                    Trabalho
+C:   000003D2  A$Trabalho$2419                    Trabalho
+C:   000003D2  C$Trabalho.c$307$1$95              Trabalho
+C:   000003D5  A$Trabalho$2422                    Trabalho
+C:   000003D5  C$Trabalho.c$308$1$95              Trabalho
+C:   000003D8  A$Trabalho$2425                    Trabalho
+C:   000003D8  C$Trabalho.c$309$1$95              Trabalho
+C:   000003DB  A$Trabalho$2428                    Trabalho
+C:   000003DB  C$Trabalho.c$310$1$95              Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003DC  A$Trabalho$2429                    Trabalho
+C:   000003DD  A$Trabalho$2430                    Trabalho
+C:   000003DE  A$Trabalho$2431                    Trabalho
+C:   000003DF  A$Trabalho$2434                    Trabalho
+C:   000003DF  C$Trabalho.c$311$1$95              Trabalho
+C:   000003E1  A$Trabalho$2437                    Trabalho
+C:   000003E1  C$Trabalho.c$312$1$95              Trabalho
+C:   000003E2  A$Trabalho$2438                    Trabalho
+C:   000003E3  A$Trabalho$2439                    Trabalho
+C:   000003E4  A$Trabalho$2440                    Trabalho
+C:   000003E5  A$Trabalho$2441                    Trabalho
+C:   000003E6  A$Trabalho$2442                    Trabalho
+C:   000003E7  A$Trabalho$2443                    Trabalho
+C:   000003E8  A$Trabalho$2444                    Trabalho
+C:   000003E9  A$Trabalho$2445                    Trabalho
+C:   000003EA  A$Trabalho$2446                    Trabalho
+C:   000003EB  A$Trabalho$2447                    Trabalho
+C:   000003EC  A$Trabalho$2448                    Trabalho
+C:   000003ED  A$Trabalho$2453                    Trabalho
+C:   000003ED  C$Trabalho.c$313$1$95              Trabalho
+C:   000003ED  C$Trabalho.c$314$1$95              Trabalho
+C:   000003ED  XG$le_glcd$0$0                     Trabalho
+C:   000003EE  A$Trabalho$2466                    Trabalho
+C:   000003EE  C$Trabalho.c$316$1$95              Trabalho
+C:   000003EE  G$esc_glcd$0$0                     Trabalho
+C:   000003EE  _esc_glcd                          Trabalho
+C:   000003F0  A$Trabalho$2470                    Trabalho
+C:   000003F0  C$Trabalho.c$317$1$97              Trabalho
+C:   000003F2  A$Trabalho$2471                    Trabalho
+C:   000003F4  A$Trabalho$2472                    Trabalho
+C:   000003F6  A$Trabalho$2473                    Trabalho
+C:   000003F8  A$Trabalho$2474                    Trabalho
+C:   000003FB  A$Trabalho$2475                    Trabalho
+C:   000003FD  A$Trabalho$2476                    Trabalho
+C:   000003FF  A$Trabalho$2477                    Trabalho
+C:   00000402  A$Trabalho$2480                    Trabalho
+C:   00000402  C$Trabalho.c$318$1$97              Trabalho
+C:   00000404  A$Trabalho$2483                    Trabalho
+C:   00000404  C$Trabalho.c$319$1$97              Trabalho
+C:   00000406  A$Trabalho$2484                    Trabalho
+C:   00000408  A$Trabalho$2487                    Trabalho
+C:   00000408  C$Trabalho.c$320$1$97              Trabalho
+C:   0000040A  A$Trabalho$2488                    Trabalho
+C:   0000040B  A$Trabalho$2489                    Trabalho
+C:   0000040D  A$Trabalho$2492                    Trabalho
+C:   0000040D  C$Trabalho.c$321$1$97              Trabalho
+C:   0000040F  A$Trabalho$2493                    Trabalho
+C:   00000411  A$Trabalho$2496                    Trabalho
+C:   00000411  C$Trabalho.c$322$1$97              Trabalho
+C:   00000414  A$Trabalho$2499                    Trabalho
+C:   00000414  C$Trabalho.c$323$1$97              Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000416  A$Trabalho$2502                    Trabalho
+C:   00000416  C$Trabalho.c$324$1$97              Trabalho
+C:   00000419  A$Trabalho$2505                    Trabalho
+C:   00000419  C$Trabalho.c$325$1$97              Trabalho
+C:   0000041A  A$Trabalho$2506                    Trabalho
+C:   0000041B  A$Trabalho$2507                    Trabalho
+C:   0000041C  A$Trabalho$2508                    Trabalho
+C:   0000041D  A$Trabalho$2511                    Trabalho
+C:   0000041D  C$Trabalho.c$326$1$97              Trabalho
+C:   0000041F  A$Trabalho$2514                    Trabalho
+C:   0000041F  C$Trabalho.c$327$1$97              Trabalho
+C:   00000420  A$Trabalho$2515                    Trabalho
+C:   00000421  A$Trabalho$2516                    Trabalho
+C:   00000422  A$Trabalho$2517                    Trabalho
+C:   00000423  A$Trabalho$2518                    Trabalho
+C:   00000424  A$Trabalho$2519                    Trabalho
+C:   00000425  A$Trabalho$2520                    Trabalho
+C:   00000426  A$Trabalho$2521                    Trabalho
+C:   00000427  A$Trabalho$2522                    Trabalho
+C:   00000428  A$Trabalho$2523                    Trabalho
+C:   00000429  A$Trabalho$2524                    Trabalho
+C:   0000042A  A$Trabalho$2525                    Trabalho
+C:   0000042B  A$Trabalho$2528                    Trabalho
+C:   0000042B  C$Trabalho.c$328$1$97              Trabalho
+C:   0000042D  A$Trabalho$2531                    Trabalho
+C:   0000042D  C$Trabalho.c$329$1$97              Trabalho
+C:   00000430  A$Trabalho$2534                    Trabalho
+C:   00000430  C$Trabalho.c$330$1$97              Trabalho
+C:   00000433  A$Trabalho$2537                    Trabalho
+C:   00000433  C$Trabalho.c$331$1$97              Trabalho
+C:   00000436  A$Trabalho$2540                    Trabalho
+C:   00000436  C$Trabalho.c$332$1$97              Trabalho
+C:   00000438  A$Trabalho$2543                    Trabalho
+C:   00000438  C$Trabalho.c$333$1$97              Trabalho
+C:   00000439  A$Trabalho$2544                    Trabalho
+C:   0000043A  A$Trabalho$2545                    Trabalho
+C:   0000043B  A$Trabalho$2546                    Trabalho
+C:   0000043C  A$Trabalho$2547                    Trabalho
+C:   0000043D  A$Trabalho$2548                    Trabalho
+C:   0000043E  A$Trabalho$2549                    Trabalho
+C:   0000043F  A$Trabalho$2550                    Trabalho
+C:   00000440  A$Trabalho$2551                    Trabalho
+C:   00000441  A$Trabalho$2552                    Trabalho
+C:   00000442  A$Trabalho$2553                    Trabalho
+C:   00000443  A$Trabalho$2554                    Trabalho
+C:   00000444  A$Trabalho$2557                    Trabalho
+C:   00000444  C$Trabalho.c$334$1$97              Trabalho
+C:   00000444  XG$esc_glcd$0$0                    Trabalho
+C:   00000445  A$Trabalho$2570                    Trabalho
+C:   00000445  C$Trabalho.c$336$1$97              Trabalho
+C:   00000445  C$Trabalho.c$337$1$99              Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000445  G$init_glcd$0$0                    Trabalho
+C:   00000445  _init_glcd                         Trabalho
+C:   00000447  A$Trabalho$2573                    Trabalho
+C:   00000447  C$Trabalho.c$338$1$99              Trabalho
+C:   00000449  A$Trabalho$2576                    Trabalho
+C:   00000449  C$Trabalho.c$339$1$99              Trabalho
+C:   0000044B  A$Trabalho$2579                    Trabalho
+C:   0000044B  C$Trabalho.c$340$1$99              Trabalho
+C:   0000044D  A$Trabalho$2582                    Trabalho
+C:   0000044D  C$Trabalho.c$341$1$99              Trabalho
+C:   00000450  A$Trabalho$2585                    Trabalho
+C:   00000450  C$Trabalho.c$342$1$99              Trabalho
+C:   00000453  A$Trabalho$2588                    Trabalho
+C:   00000453  C$Trabalho.c$343$1$99              Trabalho
+C:   00000456  A$Trabalho$2592                    Trabalho
+C:   00000456  C$Trabalho.c$344$1$99              Trabalho
+C:   00000458  A$Trabalho$2593                    Trabalho
+C:   0000045A  A$Trabalho$2594                    Trabalho
+C:   0000045D  A$Trabalho$2595                    Trabalho
+C:   0000045F  A$Trabalho$2596                    Trabalho
+C:   00000462  A$Trabalho$2600                    Trabalho
+C:   00000462  C$Trabalho.c$345$1$99              Trabalho
+C:   00000464  A$Trabalho$2601                    Trabalho
+C:   00000466  A$Trabalho$2602                    Trabalho
+C:   00000469  A$Trabalho$2603                    Trabalho
+C:   0000046B  A$Trabalho$2604                    Trabalho
+C:   0000046E  A$Trabalho$2607                    Trabalho
+C:   0000046E  C$Trabalho.c$346$1$99              Trabalho
+C:   00000470  A$Trabalho$2608                    Trabalho
+C:   00000472  A$Trabalho$2609                    Trabalho
+C:   00000475  A$Trabalho$2610                    Trabalho
+C:   00000478  A$Trabalho$2613                    Trabalho
+C:   00000478  C$Trabalho.c$347$1$99              Trabalho
+C:   0000047A  A$Trabalho$2614                    Trabalho
+C:   0000047C  A$Trabalho$2615                    Trabalho
+C:   0000047F  A$Trabalho$2616                    Trabalho
+C:   00000482  A$Trabalho$2619                    Trabalho
+C:   00000482  C$Trabalho.c$348$1$99              Trabalho
+C:   00000484  A$Trabalho$2620                    Trabalho
+C:   00000486  A$Trabalho$2621                    Trabalho
+C:   00000489  A$Trabalho$2622                    Trabalho
+C:   0000048C  A$Trabalho$2625                    Trabalho
+C:   0000048C  C$Trabalho.c$349$1$99              Trabalho
+C:   0000048E  A$Trabalho$2626                    Trabalho
+C:   00000490  A$Trabalho$2627                    Trabalho
+C:   00000493  A$Trabalho$2628                    Trabalho
+C:   00000496  A$Trabalho$2631                    Trabalho
+C:   00000496  C$Trabalho.c$350$1$99              Trabalho
+C:   00000498  A$Trabalho$2632                    Trabalho
+C:   0000049A  A$Trabalho$2633                    Trabalho
+C:   0000049D  A$Trabalho$2634                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004A0  A$Trabalho$2637                    Trabalho
+C:   000004A0  C$Trabalho.c$351$1$99              Trabalho
+C:   000004A2  A$Trabalho$2638                    Trabalho
+C:   000004A4  A$Trabalho$2639                    Trabalho
+C:   000004A7  A$Trabalho$2640                    Trabalho
+C:   000004AA  A$Trabalho$2643                    Trabalho
+C:   000004AA  C$Trabalho.c$352$1$99              Trabalho
+C:   000004AC  A$Trabalho$2644                    Trabalho
+C:   000004AE  A$Trabalho$2645                    Trabalho
+C:   000004B1  A$Trabalho$2646                    Trabalho
+C:   000004B4  A$Trabalho$2649                    Trabalho
+C:   000004B4  C$Trabalho.c$353$1$99              Trabalho
+C:   000004B6  A$Trabalho$2650                    Trabalho
+C:   000004B8  A$Trabalho$2651                    Trabalho
+C:   000004BB  A$Trabalho$2652                    Trabalho
+C:   000004BE  A$Trabalho$2655                    Trabalho
+C:   000004BE  C$Trabalho.c$354$1$99              Trabalho
+C:   000004BE  XG$init_glcd$0$0                   Trabalho
+C:   000004BF  A$Trabalho$2668                    Trabalho
+C:   000004BF  C$Trabalho.c$356$1$99              Trabalho
+C:   000004BF  G$conf_y$0$0                       Trabalho
+C:   000004BF  _conf_y                            Trabalho
+C:   000004C1  A$Trabalho$2671                    Trabalho
+C:   000004C1  C$Trabalho.c$357$1$101             Trabalho
+C:   000004C4  A$Trabalho$2674                    Trabalho
+C:   000004C4  C$Trabalho.c$358$1$101             Trabalho
+C:   000004C6  A$Trabalho$2675                    Trabalho
+C:   000004C7  A$Trabalho$2676                    Trabalho
+C:   000004C9  A$Trabalho$2677                    Trabalho
+C:   000004CB  A$Trabalho$2678                    Trabalho
+C:   000004CD  A$Trabalho$2679                    Trabalho
+C:   000004CF  A$Trabalho$2680                    Trabalho
+C:   000004D2  A$Trabalho$2683                    Trabalho
+C:   000004D2  C$Trabalho.c$359$1$101             Trabalho
+C:   000004D2  XG$conf_y$0$0                      Trabalho
+C:   000004D3  A$Trabalho$2696                    Trabalho
+C:   000004D3  C$Trabalho.c$361$1$101             Trabalho
+C:   000004D3  G$conf_pag$0$0                     Trabalho
+C:   000004D3  _conf_pag                          Trabalho
+C:   000004D5  A$Trabalho$2699                    Trabalho
+C:   000004D5  C$Trabalho.c$362$1$103             Trabalho
+C:   000004D8  A$Trabalho$2702                    Trabalho
+C:   000004D8  C$Trabalho.c$363$1$103             Trabalho
+C:   000004DA  A$Trabalho$2703                    Trabalho
+C:   000004DB  A$Trabalho$2704                    Trabalho
+C:   000004DD  A$Trabalho$2705                    Trabalho
+C:   000004DF  A$Trabalho$2706                    Trabalho
+C:   000004E1  A$Trabalho$2707                    Trabalho
+C:   000004E3  A$Trabalho$2708                    Trabalho
+C:   000004E6  A$Trabalho$2711                    Trabalho
+C:   000004E6  C$Trabalho.c$364$1$103             Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004E6  XG$conf_pag$0$0                    Trabalho
+C:   000004E7  A$Trabalho$2725                    Trabalho
+C:   000004E7  C$Trabalho.c$366$1$103             Trabalho
+C:   000004E7  G$insere_space$0$0                 Trabalho
+C:   000004E7  _insere_space                      Trabalho
+C:   000004E9  A$Trabalho$2726                    Trabalho
+C:   000004EB  A$Trabalho$2729                    Trabalho
+C:   000004ED  A$Trabalho$2731                    Trabalho
+C:   000004EF  A$Trabalho$2732                    Trabalho
+C:   000004F1  A$Trabalho$2733                    Trabalho
+C:   000004F2  A$Trabalho$2734                    Trabalho
+C:   000004F3  A$Trabalho$2735                    Trabalho
+C:   000004F4  A$Trabalho$2736                    Trabalho
+C:   000004F5  A$Trabalho$2737                    Trabalho
+C:   000004F6  A$Trabalho$2738                    Trabalho
+C:   000004F8  A$Trabalho$2741                    Trabalho
+C:   000004F8  C$Trabalho.c$369$1$105             Trabalho
+C:   000004FA  A$Trabalho$2742                    Trabalho
+C:   000004FC  A$Trabalho$2743                    Trabalho
+C:   000004FE  A$Trabalho$2744                    Trabalho
+C:   00000501  A$Trabalho$2745                    Trabalho
+C:   00000503  A$Trabalho$2746                    Trabalho
+C:   00000505  A$Trabalho$2747                    Trabalho
+C:   00000507  A$Trabalho$2748                    Trabalho
+C:   0000050A  A$Trabalho$2749                    Trabalho
+C:   0000050C  A$Trabalho$2750                    Trabalho
+C:   0000050E  A$Trabalho$2751                    Trabalho
+C:   00000510  A$Trabalho$2754                    Trabalho
+C:   00000510  C$Trabalho.c$368$1$105             Trabalho
+C:   00000511  A$Trabalho$2755                    Trabalho
+C:   00000513  A$Trabalho$2759                    Trabalho
+C:   00000513  C$Trabalho.c$370$1$105             Trabalho
+C:   00000513  XG$insere_space$0$0                Trabalho
+C:   00000514  A$Trabalho$2775                    Trabalho
+C:   00000514  C$Trabalho.c$372$1$105             Trabalho
+C:   00000514  G$limpa_glcd$0$0                   Trabalho
+C:   00000514  _limpa_glcd                        Trabalho
+C:   00000516  A$Trabalho$2779                    Trabalho
+C:   00000516  C$Trabalho.c$375$2$108             Trabalho
+C:   00000518  A$Trabalho$2780                    Trabalho
+C:   0000051A  A$Trabalho$2781                    Trabalho
+C:   0000051D  A$Trabalho$2782                    Trabalho
+C:   0000051F  A$Trabalho$2783                    Trabalho
+C:   00000522  A$Trabalho$2784                    Trabalho
+C:   00000524  A$Trabalho$2787                    Trabalho
+C:   00000524  C$Trabalho.c$376$2$108             Trabalho
+C:   00000526  A$Trabalho$2788                    Trabalho
+C:   00000528  A$Trabalho$2789                    Trabalho
+C:   0000052A  A$Trabalho$2790                    Trabalho
+C:   0000052C  A$Trabalho$2791                    Trabalho
+C:   0000052F  A$Trabalho$2792                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000531  A$Trabalho$2795                    Trabalho
+C:   00000531  C$Trabalho.c$377$1$107             Trabalho
+C:   00000533  A$Trabalho$2799                    Trabalho
+C:   00000533  C$Trabalho.c$378$2$108             Trabalho
+C:   00000535  A$Trabalho$2800                    Trabalho
+C:   00000537  A$Trabalho$2801                    Trabalho
+C:   00000539  A$Trabalho$2802                    Trabalho
+C:   0000053C  A$Trabalho$2803                    Trabalho
+C:   0000053E  A$Trabalho$2804                    Trabalho
+C:   00000540  A$Trabalho$2805                    Trabalho
+C:   00000543  A$Trabalho$2806                    Trabalho
+C:   00000545  A$Trabalho$2807                    Trabalho
+C:   00000547  A$Trabalho$2810                    Trabalho
+C:   00000547  C$Trabalho.c$377$2$108             Trabalho
+C:   00000548  A$Trabalho$2811                    Trabalho
+C:   0000054B  A$Trabalho$2813                    Trabalho
+C:   0000054D  A$Trabalho$2816                    Trabalho
+C:   0000054D  C$Trabalho.c$374$1$107             Trabalho
+C:   0000054E  A$Trabalho$2817                    Trabalho
+C:   00000551  A$Trabalho$2819                    Trabalho
+C:   00000553  A$Trabalho$2822                    Trabalho
+C:   00000553  C$Trabalho.c$380$1$107             Trabalho
+C:   00000553  XG$limpa_glcd$0$0                  Trabalho
+C:   00000554  A$Trabalho$2837                    Trabalho
+C:   00000554  C$Trabalho.c$382$1$107             Trabalho
+C:   00000554  G$putchar$0$0                      Trabalho
+C:   00000554  _putchar                           Trabalho
+C:   00000556  A$Trabalho$2840                    Trabalho
+C:   00000556  C$Trabalho.c$386$1$110             Trabalho
+C:   00000559  A$Trabalho$2842                    Trabalho
+C:   0000055B  A$Trabalho$2845                    Trabalho
+C:   0000055B  C$Trabalho.c$387$2$111             Trabalho
+C:   0000055C  A$Trabalho$2846                    Trabalho
+C:   0000055D  A$Trabalho$2847                    Trabalho
+C:   0000055E  A$Trabalho$2848                    Trabalho
+C:   00000560  A$Trabalho$2849                    Trabalho
+C:   00000562  A$Trabalho$2850                    Trabalho
+C:   00000564  A$Trabalho$2851                    Trabalho
+C:   00000567  A$Trabalho$2852                    Trabalho
+C:   00000569  A$Trabalho$2855                    Trabalho
+C:   00000569  C$Trabalho.c$388$2$111             Trabalho
+C:   0000056B  A$Trabalho$2856                    Trabalho
+C:   0000056D  A$Trabalho$2857                    Trabalho
+C:   0000056F  A$Trabalho$2858                    Trabalho
+C:   00000572  A$Trabalho$2859                    Trabalho
+C:   00000574  A$Trabalho$2862                    Trabalho
+C:   00000574  C$Trabalho.c$389$2$111             Trabalho
+C:   00000576  A$Trabalho$2863                    Trabalho
+C:   00000578  A$Trabalho$2864                    Trabalho
+C:   0000057A  A$Trabalho$2865                    Trabalho
+C:   0000057D  A$Trabalho$2866                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000057F  A$Trabalho$2869                    Trabalho
+C:   0000057F  C$Trabalho.c$390$2$111             Trabalho
+C:   00000581  A$Trabalho$2870                    Trabalho
+C:   00000583  A$Trabalho$2871                    Trabalho
+C:   00000586  A$Trabalho$2874                    Trabalho
+C:   00000586  C$Trabalho.c$391$2$111             Trabalho
+C:   00000589  A$Trabalho$2875                    Trabalho
+C:   0000058C  A$Trabalho$2879                    Trabalho
+C:   0000058C  C$Trabalho.c$394$2$112             Trabalho
+C:   0000058E  A$Trabalho$2880                    Trabalho
+C:   00000590  A$Trabalho$2881                    Trabalho
+C:   00000592  A$Trabalho$2884                    Trabalho
+C:   00000592  C$Trabalho.c$395$2$112             Trabalho
+C:   00000594  A$Trabalho$2885                    Trabalho
+C:   00000596  A$Trabalho$2889                    Trabalho
+C:   00000596  C$Trabalho.c$397$2$112             Trabalho
+C:   00000598  A$Trabalho$2893                    Trabalho
+C:   00000598  C$Trabalho.c$398$2$112             Trabalho
+C:   00000599  A$Trabalho$2894                    Trabalho
+C:   0000059B  A$Trabalho$2897                    Trabalho
+C:   0000059B  C$Trabalho.c$399$2$112             Trabalho
+C:   0000059E  A$Trabalho$2898                    Trabalho
+C:   0000059F  A$Trabalho$2899                    Trabalho
+C:   000005A1  A$Trabalho$2900                    Trabalho
+C:   000005A2  A$Trabalho$2901                    Trabalho
+C:   000005A4  A$Trabalho$2902                    Trabalho
+C:   000005A6  A$Trabalho$2903                    Trabalho
+C:   000005A7  A$Trabalho$2904                    Trabalho
+C:   000005A9  A$Trabalho$2905                    Trabalho
+C:   000005AB  A$Trabalho$2906                    Trabalho
+C:   000005AC  A$Trabalho$2907                    Trabalho
+C:   000005AD  A$Trabalho$2908                    Trabalho
+C:   000005AE  A$Trabalho$2909                    Trabalho
+C:   000005B0  A$Trabalho$2910                    Trabalho
+C:   000005B2  A$Trabalho$2911                    Trabalho
+C:   000005B4  A$Trabalho$2912                    Trabalho
+C:   000005B6  A$Trabalho$2913                    Trabalho
+C:   000005B8  A$Trabalho$2914                    Trabalho
+C:   000005BA  A$Trabalho$2915                    Trabalho
+C:   000005BD  A$Trabalho$2916                    Trabalho
+C:   000005BF  A$Trabalho$2917                    Trabalho
+C:   000005C1  A$Trabalho$2920                    Trabalho
+C:   000005C1  C$Trabalho.c$400$2$112             Trabalho
+C:   000005C3  A$Trabalho$2921                    Trabalho
+C:   000005C5  A$Trabalho$2922                    Trabalho
+C:   000005C6  A$Trabalho$2923                    Trabalho
+C:   000005C7  A$Trabalho$2924                    Trabalho
+C:   000005C8  A$Trabalho$2925                    Trabalho
+C:   000005C9  A$Trabalho$2926                    Trabalho
+C:   000005CB  A$Trabalho$2927                    Trabalho
+C:   000005CD  A$Trabalho$2928                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005CF  A$Trabalho$2929                    Trabalho
+C:   000005D1  A$Trabalho$2930                    Trabalho
+C:   000005D3  A$Trabalho$2931                    Trabalho
+C:   000005D5  A$Trabalho$2932                    Trabalho
+C:   000005D8  A$Trabalho$2933                    Trabalho
+C:   000005DA  A$Trabalho$2934                    Trabalho
+C:   000005DC  A$Trabalho$2937                    Trabalho
+C:   000005DC  C$Trabalho.c$401$2$112             Trabalho
+C:   000005DE  A$Trabalho$2938                    Trabalho
+C:   000005E0  A$Trabalho$2939                    Trabalho
+C:   000005E1  A$Trabalho$2940                    Trabalho
+C:   000005E2  A$Trabalho$2941                    Trabalho
+C:   000005E3  A$Trabalho$2942                    Trabalho
+C:   000005E4  A$Trabalho$2943                    Trabalho
+C:   000005E5  A$Trabalho$2944                    Trabalho
+C:   000005E7  A$Trabalho$2945                    Trabalho
+C:   000005E9  A$Trabalho$2946                    Trabalho
+C:   000005EB  A$Trabalho$2947                    Trabalho
+C:   000005ED  A$Trabalho$2948                    Trabalho
+C:   000005EF  A$Trabalho$2949                    Trabalho
+C:   000005F1  A$Trabalho$2950                    Trabalho
+C:   000005F4  A$Trabalho$2951                    Trabalho
+C:   000005F6  A$Trabalho$2952                    Trabalho
+C:   000005F8  A$Trabalho$2955                    Trabalho
+C:   000005F8  C$Trabalho.c$402$2$112             Trabalho
+C:   000005FA  A$Trabalho$2956                    Trabalho
+C:   000005FC  A$Trabalho$2957                    Trabalho
+C:   000005FD  A$Trabalho$2958                    Trabalho
+C:   000005FE  A$Trabalho$2959                    Trabalho
+C:   000005FF  A$Trabalho$2960                    Trabalho
+C:   00000600  A$Trabalho$2961                    Trabalho
+C:   00000601  A$Trabalho$2962                    Trabalho
+C:   00000602  A$Trabalho$2963                    Trabalho
+C:   00000604  A$Trabalho$2964                    Trabalho
+C:   00000606  A$Trabalho$2965                    Trabalho
+C:   00000608  A$Trabalho$2966                    Trabalho
+C:   0000060A  A$Trabalho$2967                    Trabalho
+C:   0000060C  A$Trabalho$2968                    Trabalho
+C:   0000060E  A$Trabalho$2969                    Trabalho
+C:   00000611  A$Trabalho$2970                    Trabalho
+C:   00000613  A$Trabalho$2971                    Trabalho
+C:   00000615  A$Trabalho$2974                    Trabalho
+C:   00000615  C$Trabalho.c$403$2$112             Trabalho
+C:   00000617  A$Trabalho$2975                    Trabalho
+C:   00000619  A$Trabalho$2976                    Trabalho
+C:   0000061A  A$Trabalho$2977                    Trabalho
+C:   0000061B  A$Trabalho$2978                    Trabalho
+C:   0000061C  A$Trabalho$2979                    Trabalho
+C:   0000061D  A$Trabalho$2980                    Trabalho
+C:   0000061E  A$Trabalho$2981                    Trabalho
+C:   0000061F  A$Trabalho$2982                    Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000620  A$Trabalho$2983                    Trabalho
+C:   00000622  A$Trabalho$2984                    Trabalho
+C:   00000624  A$Trabalho$2985                    Trabalho
+C:   00000626  A$Trabalho$2986                    Trabalho
+C:   00000628  A$Trabalho$2987                    Trabalho
+C:   0000062B  A$Trabalho$2990                    Trabalho
+C:   0000062B  C$Trabalho.c$404$2$112             Trabalho
+C:   0000062D  A$Trabalho$2991                    Trabalho
+C:   0000062F  A$Trabalho$2992                    Trabalho
+C:   00000632  A$Trabalho$2993                    Trabalho
+C:   00000635  A$Trabalho$2996                    Trabalho
+C:   00000635  C$Trabalho.c$405$2$112             Trabalho
+C:   00000637  A$Trabalho$3000                    Trabalho
+C:   00000637  C$Trabalho.c$408$1$110             Trabalho
+C:   00000637  XG$putchar$0$0                     Trabalho
+C:   00000638  A$Trabalho$3013                    Trabalho
+C:   00000638  C$Trabalho.c$412$1$110             Trabalho
+C:   00000638  C$Trabalho.c$413$1$113             Trabalho
+C:   00000638  G$main$0$0                         Trabalho
+C:   00000638  _main                              Trabalho
+C:   0000063B  A$Trabalho$3016                    Trabalho
+C:   0000063B  C$Trabalho.c$414$1$113             Trabalho
+C:   0000063E  A$Trabalho$3019                    Trabalho
+C:   0000063E  C$Trabalho.c$415$1$113             Trabalho
+C:   00000641  A$Trabalho$3022                    Trabalho
+C:   00000641  C$Trabalho.c$416$1$113             Trabalho
+C:   00000643  A$Trabalho$3023                    Trabalho
+C:   00000646  A$Trabalho$3026                    Trabalho
+C:   00000646  C$Trabalho.c$417$1$113             Trabalho
+C:   00000648  A$Trabalho$3027                    Trabalho
+C:   0000064B  A$Trabalho$3030                    Trabalho
+C:   0000064B  C$Trabalho.c$418$1$113             Trabalho
+C:   0000064D  A$Trabalho$3031                    Trabalho
+C:   00000650  A$Trabalho$3032                    Trabalho
+C:   00000653  A$Trabalho$3035                    Trabalho
+C:   00000653  C$Trabalho.c$419$1$113             Trabalho
+C:   00000655  A$Trabalho$3036                    Trabalho
+C:   00000658  A$Trabalho$3037                    Trabalho
+C:   0000065B  A$Trabalho$3040                    Trabalho
+C:   0000065B  C$Trabalho.c$420$1$113             Trabalho
+C:   0000065D  A$Trabalho$3041                    Trabalho
+C:   00000660  A$Trabalho$3042                    Trabalho
+C:   00000663  A$Trabalho$3045                    Trabalho
+C:   00000663  C$Trabalho.c$421$1$113             Trabalho
+C:   00000665  A$Trabalho$3046                    Trabalho
+C:   00000668  A$Trabalho$3047                    Trabalho
+C:   0000066B  A$Trabalho$3053                    Trabalho
+C:   0000066B  C$Trabalho.c$422$1$113             Trabalho
+C:   0000066B  C$Trabalho.c$423$2$114             Trabalho
+C:   0000066E  A$Trabalho$3056                    Trabalho
+C:   0000066E  C$Trabalho.c$424$2$114             Trabalho
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000071    00000CF6 =        3318. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000671  A$Trabalho$3059                    Trabalho
+C:   00000671  C$Trabalho.c$425$2$114             Trabalho
+C:   00000673  A$Trabalho$3060                    Trabalho
+C:   00000675  A$Trabalho$3061                    Trabalho
+C:   00000677  A$Trabalho$3062                    Trabalho
+C:   00000679  A$Trabalho$3063                    Trabalho
+C:   0000067B  A$Trabalho$3064                    Trabalho
+C:   0000067D  A$Trabalho$3065                    Trabalho
+C:   0000067F  A$Trabalho$3066                    Trabalho
+C:   00000681  A$Trabalho$3067                    Trabalho
+C:   00000684  A$Trabalho$3068                    Trabalho
+C:   00000686  A$Trabalho$3069                    Trabalho
+C:   00000688  A$Trabalho$3070                    Trabalho
+C:   0000068A  A$Trabalho$3073                    Trabalho
+C:   0000068A  C$Trabalho.c$426$2$114             Trabalho
+C:   0000068D  A$Trabalho$3074                    Trabalho
+C:   00000690  A$Trabalho$3075                    Trabalho
+C:   00000692  A$Trabalho$3078                    Trabalho
+C:   00000692  C$Trabalho.c$428$1$113             Trabalho
+C:   00000692  XG$main$0$0                        Trabalho
+C:   00000693  _printf_fast_f                     printf_fast_f
+C:   00000B14  ___fsmul                           _fsmul
+C:   00000BB7  fsgetargs                          _fsget2args
+C:   00000BE5  fs_rshift_a                        _fsrshift
+C:   00000C28  fs_normalize_a                     _fsnormalize
+C:   00000C5B  ___fsadd                           _fsadd
+C:   00000C5E  fsadd_direct_entry                 _fsadd
+C:   00000CB4  ___uint2fs                         _uint2fs
+C:   00000CC0  fs_round_and_return                _fsreturnval
+C:   00000CD8  fs_zerocheck_return                _fsreturnval
+C:   00000CE1  fs_return_zero                     _fsreturnval
+C:   00000CE9  fs_direct_return                   _fsreturnval
+C:   00000CF7  fs_return_inf                      _fsreturnval
+C:   00000D04  fs_return_nan                      _fsreturnval
+C:   00000D0F  fs_swap_a_b                        _fsswapargs
+C:   00000D29  __gptrget                          _gptrget
+C:   00000D45  ___uchar2fs                        _uchar2fs
+C:   00000D50  ___ulong2fs                        _ulong2fs
+C:   00000D59  ulong2fs_doit                      _ulong2fs
+C:   00000D63  __sdcc_external_startup            _startup
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000D67    000003F1 =        1009. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000D67  G$fonte$0$0                        Trabalho
+C:   00000D67  _fonte                             Trabalho
+C:   00000F47  G$dat$0$0                          Trabalho
+C:   00000F47  _dat                               Trabalho
+C:   00000F50  G$ROM$0$0                          Trabalho
+C:   00000F50  _ROM                               Trabalho
+C:   00000F58  G$FoundROM$0$0                     Trabalho
+C:   00000F58  _FoundROM                          Trabalho
+C:   00000F68  G$scratch$0$0                      Trabalho
+C:   00000F68  _scratch                           Trabalho
+C:   00000F7A  FTrabalho$__str_0$0$0              Trabalho
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
+
+Files Linked                              [ module(s) ]
+
+C:\micap\Trabalho.rel                     [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ printf_fast_f.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsmul.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsget2args.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsrshift.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsnormalize.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsadd.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _uint2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsreturnval.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _bp.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsswapargs.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _uchar2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _ulong2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 56.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
